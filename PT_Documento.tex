@@ -12,11 +12,13 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{float}
+
 \geometry{letterpaper, margin=2cm}
 
 % Configuración de encabezado
 \pagestyle{fancy}
 \fancyhf{}
+\setlength{\headheight}{14.49998pt} % required by fancyhdr to avoid "headheight is too small" warnings
 \lhead{Gestor de Notas}     % Nombre del proyecto
 \rhead{\thepage}            % Número de página
 \renewcommand{\headrulewidth}{0.4pt} % Línea sólida debajo del encabezado
@@ -212,7 +214,7 @@ Por ello, se requiere diseñar una aplicación que genere confianza al usuario, 
     \item Estudio: El usuario necesita estudiar ayudandose de las notas generadas pero muchas veces solo se necesita estudiar temas en especificos lo cual si el contenido de las notas no esta organizado o bien definido puede retrasar el estudio al dedicar mas tiempo en la busqueda de temas concretos u especificos.
 \end{itemize}
 
-\noindent Una vez conociendo las problematicas con las que el usuario se puede encontrar al hacer tener la necesidad de consultar sus notas como se mostro en el \textbf{punto 4}, podemos ver el inicio de uso de la aplicación el cual se muestra en el \textbf{punto 5 }, en el que se muestra como el usuario centraliza o adjunta todas sus notas en una aplicación en la que como resultado se genera o se crea una base de datos, que se puede describir mejor como una base que contiene todo el conocimiento que el usuario generé ver en el \textbf{punto 6}, de esta manera la aplicacion contiene un sistema clasificador en el que organiza los documentos con etiquetas o buscando similitudes en su contenido organizandolas por temas como se muestra en el \textbf{punto 7}, de esta manera como se puede observar en el punto 8 el usuario hace consultas a un chat a la aplicacion acerca de sus notas \textbf{punto 8} y \textbf{punto 9}, finalizando el sistema podra responder de dos maneras, \textbf{punto 11} el sistema clasificador encontro la respuesta para la pregunta del usuario o \textbf{punto 12} en la que el sistema no logro encontrar ningun tema relacionado con la pregunta del usuario. de esta manera se finaliza el contexto de uso de la aplicación gestor de notas inteligente.
+\noindent Una vez conociendo las problematicas con las que el usuario se puede encontrar al hacer tener la necesidad de consultar sus notas como se mostro en el \textbf{punto 4}, podemos ver el inicio de uso de la aplicación el cual se muestra en el\textbf{punto 5 }, en el que se muestra como el usuario centraliza o adjunta todas sus notas en una aplicación en la que como resultado se genera o se crea una base de datos, que se puede describir mejor como una base que contiene todo el conocimiento que el usuario generé ver en el \textbf{punto 6}, de esta manera la aplicacion contiene un sistema clasificador en el que organiza los documentos con etiquetas o buscando similitudes en su contenido organizandolas por temas como se muestra en el \textbf{punto 7}, de esta manera como se puede observar en el punto 8 el usuario hace consultas a un chat a la aplicacion acerca de sus notas \textbf{punto 8} y \textbf{punto 9}, finalizando el sistema podra responder de dos maneras, \textbf{punto 11} el sistema clasificador encontro la respuesta para la pregunta del usuario o \textbf{punto 12} en la que el sistema no logro encontrar ningun tema relacionado con la pregunta del usuario. de esta manera se finaliza el contexto de uso de la aplicación gestor de notas inteligente.
 
 \begin{figure}
     \centering
@@ -241,18 +243,18 @@ Por ello, se requiere diseñar una aplicación que genere confianza al usuario, 
 \noindent En este apartado se presentarán conceptos y términos clave que permitirán comprender y entender de mejor manera el contenido del documento.
 \begin{itemize}
 
-\item ChatBot: Para este protyecto se utiliza el concepto de chatbot, el cual podemos definir como, un sistema con el que el usuario puede interactuar generando una conversacion en lenguaje natural, haciendo preguntas acerca de diversos temas por medio de voz o texto, Este sistema podra aprender, entender y adaptarse a un contexto de diversos temas, ademas el chatbot podra hacer recomendaciones acerca de informacion que el usuario necesite o le pueda ser de ayuda.\bibliography{}
+\item ChatBot: Para este protyecto se utiliza el concepto de chatbot, el cual podemos definir como, un sistema con el que el usuario puede interactuar generando una conversacion en lenguaje natural, haciendo preguntas acerca de diversos temas por medio de voz o texto, Este sistema podra aprender, entender y adaptarse a un contexto de diversos temas, ademas el chatbot podra hacer recomendaciones acerca de informacion que el usuario necesite o le pueda ser de ayuda.\cite{chatbot_AWS,chatbot_IBM}
 
 \end{itemize}
 
 \section{Estado del Arte}
-En esta seccion realizaré un analisis comparativo con las principales soluciones de software disponibles en el mercado y que tienen relacion con el proyecto gestor de notas inteligente, este analisis nos permitira conocer los principales diferenciadores con respecto a estas soluciones permitiendonos ademas mostrar la importancia o los beneficios del desarrollo de este proyecto, para esto tomaré aplicaciones como: Notion, Obsidian, NotebookLM.\\
+En esta seccion realizaré un analisis comparativo con las principales soluciones de software disponibles en el mercado y que tienen relacion con el proyecto gestor de notas inteligente, este analisis nos permitira conocer los principales diferenciadores con respecto a estas soluciones permitiendonos ademas mostrar la importancia o los beneficios del desarrollo de este proyecto, para esto tomaré aplicaciones como: Notion, Obsidian, NotebookLM .\\
 
-\noindent Notion: Notion es una herramienta multiplataforma de trabajo todo en uno, esta herramienta se centra principalmente en generar espacios de trabajo propios o para equipos, estos espacios pueden ser totalmente personalizables ademas de facilitar la creacion de documentos, planificacion del trabajo, el seguimiento y gestion de proyectos, Notion permite la creaion de bases de conocimientos y la estructura de notas.[3] \\
+\noindent Notion: Notion es una herramienta multiplataforma de trabajo todo en uno, esta herramienta se centra principalmente en generar espacios de trabajo propios o para equipos, estos espacios pueden ser totalmente personalizables ademas de facilitar la creacion de documentos, planificacion del trabajo, el seguimiento y gestion de proyectos, Notion permite la creaion de bases de conocimientos y la estructura de notas.\cite{Notion_2025,Notion_Personal} \\
 
-\noindent Obsidian: Es una aplicacion gratuita y flexible para organizar conocimiento, desde llevar la creacion de diarios, hasta crear bases de conocimientos y gestionar proyectos, obsidian crea los archivos en formatos abiertos por lo que no se depende de un solo formato ademas estos archivos los guarda de manera privada. [4]\\
+\noindent Obsidian: Es una aplicacion gratuita y flexible para organizar conocimiento, desde llevar la creacion de diarios, hasta crear bases de conocimientos y gestionar proyectos, obsidian crea los archivos en formatos abiertos por lo que no se depende de un solo formato ademas estos archivos los guarda de manera privada. \cite{Obsidian}\\
 
-\noindent NotebookLM: NotebookLM se define como un compañero o ayudante de investigacion y reflexion que se basa unicamente en informacion en la que confie el usuario, esta aplicacion incorpora IA usando modelos Gemini, NotebookLM ofrece la posibilidad de potenciar el estudio, organizar ideas y generar nuevas ideas a travez de consultas y la generacion de diversos contenidos.\\
+\noindent NotebookLM: NotebookLM se define como un compañero o ayudante de investigacion y reflexion que se basa unicamente en informacion en la que confie el usuario, esta aplicacion incorpora IA usando modelos Gemini, NotebookLM ofrece la posibilidad de potenciar el estudio, organizar ideas y generar nuevas ideas a travez de consultas y la generacion de diversos contenidos. \cite{NotebookLM}\\
 
 \begin{table}[H]
 \centering
@@ -286,7 +288,7 @@ Filosofía & Productividad visual y colaborativa. & Conexión entre ideas. & Aut
 \end{tabularx}
 \end{table}
 
-\noindent Por lo tanto esta comparativa mostrada en el cuadro 3.1 nos muestra las principales diferencias entre las aplicaciones existente en el mercado y el gestor de notas inteligente en el cual podemos concluir que brindar seguridad a los usuarios de que la informacion estara siempre disponible y segura es el principal diferenciador.
+\noindent Por lo tanto esta comparativa mostrada en el cuadro \ref{tab:comparativa_final} nos muestra las principales diferencias entre las aplicaciones existente en el mercado y el gestor de notas inteligente en el cual podemos concluir que brindar seguridad a los usuarios de que la informacion estara siempre disponible y segura es el principal diferenciador.
 
 \chapter{Marco Metodológico}
 \thispagestyle{fancy}
@@ -316,10 +318,10 @@ Filosofía & Productividad visual y colaborativa. & Conexión entre ideas. & Aut
 \thispagestyle{fancy}
 \section{Calendario de Actividades}
 \noindent Delimitacion de actividades mediante diagramas de Gantt.
-El proyecto se plantea desarrollar en 3 etapas las cuales las principales actividades y los principales objetivos a cumplir se describiran a travez de un diagramas de Gantt en los cuales se podran encontrar algunos elementos como periodo que se abarca, Tareas u objetivos a realizar y el tiempo esperado en el que se propone cumplir, estos periodos se dividen en los siguientes:
+El proyecto se plantea desarrollar en 3 etapas las cuales las principales actividades y los principales objetivos a cumplir se describiran a travez de un diagramas de Gantt en los cuales se podran encontrar algunos elementos como periodo que se abarca, Tareas u objetivos a realizar y el tiempo esperado en el que se propone cumplir, estos periodos se dividen en los siguientes vease en Figura\ref{fig:placeholder}:
 \begin{figure}
     \centering
-    \includegraphics[width=1\linewidth]{Diagramas_UML/Prueba.png}
+    \includegraphics[width=.5\linewidth]{Diagramas_UML/Prueba.png}
     \caption{Calendario de Actividades}
     \label{fig:placeholder}
 \end{figure}
@@ -337,10 +339,11 @@ Este conjunto tecnológico asegura una solución robusta, privada y colaborativa
 
 \chapter{Impacto Esperado}
 \thispagestyle{fancy}
-
 \chapter*{Referencias}
 \thispagestyle{fancy}
-\addcontentsline{toc}{chapter}{Referencias}
+
+\bibliographystyle{plain}
+\bibliography{PT_GestorNotas}
 
 \appendix
 \chapter{Anexos}

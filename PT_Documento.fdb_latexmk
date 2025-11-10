@@ -1,7 +1,15 @@
 # Fdb version 4
-["pdflatex"] 1762793718.8133 "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" "PT_Documento.pdf" "PT_Documento" 1762793720.17298 0
+["bibtex PT_Documento"] 1762796097.6424 "PT_Documento.aux" "PT_Documento.bbl" "PT_Documento" 1762796170.04505 0
+  "./PT_GestorNotas.bib" 1762794783.29325 3202 0df99b3a9cc17c8e7ff8eda6e76bad7a ""
+  "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  "PT_Documento.aux" 1762796169.42712 6335 7fc46354a4250a17f2785156936ce412 "pdflatex"
+  (generated)
+  "PT_Documento.bbl"
+  "PT_Documento.blg"
+  (rewritten before read)
+["pdflatex"] 1762796168.00206 "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" "PT_Documento.pdf" "PT_Documento" 1762796170.04544 0
   "/etc/texmf/web2c/texmf.cnf" 1750719697.9744 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" 1762793716.84957 29618 0b9398c347abb1330280aa6d1f11b820 ""
+  "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" 1762796167.52586 29880 875d00aae84112baacb05782b7692b4b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
@@ -20,6 +28,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1248133631 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -45,6 +54,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty" 1738182759 2963 d8ec5a1b4e0a106c5c737900202763e4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1738182759 2378 14b657ee5031da98cf91648f19642694 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty" 1738182759 5048 0270515b828149155424600fd2d58ac5 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd" 1738182759 2469 c75f72b1dc17277decdd842fa4a321a8 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/report.cls" 1738182759 23203 7ac64169eac711b8259b91f4833984f3 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo" 1738182759 8449 ffe4ba2166a344827c3a832d1d5e0a91 ""
   "/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty" 1579038678 6078 f1cb470c9199e7110a27851508ed7a5c ""
@@ -83,10 +93,11 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1761075673 3347603 d500aa3f3c6b5e2266c5fb7abfd5498e ""
   "Contexto.png" 1762577812.51788 195441 713b5a4baa44ace086be3a1eb6f3614d ""
   "Diagramas_UML/Prueba.png" 1762580622.47836 17628 60f1ac618aeffeb069250a089fe8859c ""
-  "PT_Documento.aux" 1762793720.05959 6112 6ee20138a40b6733a152c1788718770f "pdflatex"
-  "PT_Documento.out" 1762793720.06259 4587 8868695ed013bc66e0bbf18987a8344b "pdflatex"
-  "PT_Documento.tex" 1762793716.84957 29618 0b9398c347abb1330280aa6d1f11b820 ""
-  "PT_Documento.toc" 1762793720.0638 2761 97e1efcfdd1799a45c0a8e0739e53867 "pdflatex"
+  "PT_Documento.aux" 1762796169.42712 6335 7fc46354a4250a17f2785156936ce412 "pdflatex"
+  "PT_Documento.bbl" 1762796097.89715 555 d63e558c3e786a35191506e3dc8dfdf5 "bibtex PT_Documento"
+  "PT_Documento.out" 1762796169.43012 4487 01679ba647893d2acfd10a8196b5b4a1 "pdflatex"
+  "PT_Documento.tex" 1762796167.52586 29880 875d00aae84112baacb05782b7692b4b ""
+  "PT_Documento.toc" 1762796169.43112 2707 c618441aca22394a13786084c31e2173 "pdflatex"
   (generated)
   "PT_Documento.aux"
   "PT_Documento.log"
