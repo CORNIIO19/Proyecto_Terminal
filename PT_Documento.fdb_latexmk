@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1762581436.11399 "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" "PT_Documento.pdf" "PT_Documento" 1762581437.12143 0
+["pdflatex"] 1762793718.8133 "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" "PT_Documento.pdf" "PT_Documento" 1762793720.17298 0
   "/etc/texmf/web2c/texmf.cnf" 1750719697.9744 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" 1762581434.8312 30082 0597fb5c46c360dc7fbbd2c72cc49507 ""
+  "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" 1762793716.84957 29618 0b9398c347abb1330280aa6d1f11b820 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
@@ -16,13 +16,11 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1248133631 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1248133631 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf" 1622145181 26965 3b6d1655ad716f98e788b1fb9f2e87b8 ""
@@ -85,10 +83,10 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1761075673 3347603 d500aa3f3c6b5e2266c5fb7abfd5498e ""
   "Contexto.png" 1762577812.51788 195441 713b5a4baa44ace086be3a1eb6f3614d ""
   "Diagramas_UML/Prueba.png" 1762580622.47836 17628 60f1ac618aeffeb069250a089fe8859c ""
-  "PT_Documento.aux" 1762581437.03598 6100 c37fc81c8aaf3a134aa6702c396ba881 "pdflatex"
-  "PT_Documento.out" 1762581437.03798 4587 8868695ed013bc66e0bbf18987a8344b "pdflatex"
-  "PT_Documento.tex" 1762581434.8312 30082 0597fb5c46c360dc7fbbd2c72cc49507 ""
-  "PT_Documento.toc" 1762581437.0391 2761 97e1efcfdd1799a45c0a8e0739e53867 "pdflatex"
+  "PT_Documento.aux" 1762793720.05959 6112 6ee20138a40b6733a152c1788718770f "pdflatex"
+  "PT_Documento.out" 1762793720.06259 4587 8868695ed013bc66e0bbf18987a8344b "pdflatex"
+  "PT_Documento.tex" 1762793716.84957 29618 0b9398c347abb1330280aa6d1f11b820 ""
+  "PT_Documento.toc" 1762793720.0638 2761 97e1efcfdd1799a45c0a8e0739e53867 "pdflatex"
   (generated)
   "PT_Documento.aux"
   "PT_Documento.log"
