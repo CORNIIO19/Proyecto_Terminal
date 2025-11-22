@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  22 NOV 2025 13:04
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  22 NOV 2025 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -286,12 +286,20 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box56
 \@float@everytoks=\toks27
 \@floatcapt=\box57
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip86
+\enit@outerparindent=\dimen183
+\enit@toks=\toks28
+\enit@inbox=\box58
+\enit@count@id=\count294
+\enitdp@description=\count295
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count294
-\l__pdf_internal_box=\box58
-\g__pdf_backend_annotation_int=\count295
-\g__pdf_backend_link_int=\count296
+\g__graphics_track_int=\count296
+\l__pdf_internal_box=\box59
+\g__pdf_backend_annotation_int=\count297
+\g__pdf_backend_link_int=\count298
 ) (./PT_Documento.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -360,23 +368,19 @@ Package hyperref Info: Link coloring OFF on input line 39.
 \@outlinefile=\write3
 \openout3 = `PT_Documento.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-
+ (./chapters/portada.tex
 
 [1
 
-] (./PT_Documento.toc
+]) (./PT_Documento.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 5.
 
 
 [1
@@ -387,12 +391,74 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-[2]
+[2] (./chapters/0.resumen.tex) (./chapters/1.introduccion.tex
 
 [3
 
 ]
 Capítulo 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+) (./chapters/2.planteamiento.tex
+
+[4
+
+]
+Capítulo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+
+[5
+
+]
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
@@ -405,244 +471,181 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
 
 
-[4
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
-
- []
-
-
-
-[7]
-Capítulo 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
-
- []
-
-
-
-[8
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+) (./chapters/3.marco_teorico.tex
+Underfull \hbox (badness 10000) in paragraph at lines 132--1
 
  []
 
 
 
 [9]
-File: Contexto_2.png Graphic file (type bmp)
-<Contexto_2.png>
-
-
-LaTeX Warning: Float too large for page by 27.19183pt on input line 224.
-
-
-
-[10]
-
-[11]
 Capítulo 3.
+) (./chapters/4.estado_arte.tex
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+[10
 
- []
+]
+Capítulo 4.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\TU/lmr/m/n/8 Conocimiento personal
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 288--288
+Underfull \hbox (badness 6445) in paragraph at lines 40--40
 []|\TU/lmr/m/n/8 Datos gestionados por
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\TU/lmr/m/n/8 Total dependencia de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\TU/lmr/m/n/8 Experiencia de
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 288--288
+Underfull \hbox (badness 3291) in paragraph at lines 40--40
 []|\TU/lmr/m/n/8 Productividad visual y
  []
 
 
 
-[12
+[11
+
+]) (./chapters/5.marco_metodologico.tex
+
+[12]
+Capítulo 5.
+) (./chapters/6.propuesta.tex
+
+[13
 
 ]
+Capítulo 6.
 
-[13]
-Capítulo 4.
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
 
 
 [14
 
 ]
-Capítulo 5.
+File: Contexto_2.png Graphic file (type bmp)
+<Contexto_2.png>
 
 
-[15
+LaTeX Warning: Float too large for page by 27.19183pt on input line 30.
 
-]
-Capítulo 6.
+) (./chapters/7.cronograma.tex
 
+[15]
 
-[16
-
-]
+[16]
 Capítulo 7.
-
+File: Diagramas_UML/Prueba.png Graphic file (type bmp)
+<Diagramas_UML/Prueba.png>
+) (./chapters/8.especificacion.tex
 
 [17
 
 ]
+
+[18]
 Capítulo 8.
-
-
-[18
-
-] (./PT_Documento.bbl
+) (./PT_Documento.bbl
 
 [19
 
 ])
 
 [20
-
-]
-Apéndice A.
-
-
-[21
 
 ] (./PT_Documento.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -654,21 +657,18 @@ L3 programming layer <2025-01-18>
  ***********
 
 
-Package rerunfilecheck Warning: File `PT_Documento.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: Checksums for `PT_Documento.out':
-(rerunfilecheck)             Before: 01679BA647893D2ACFD10A8196B5B4A1;4487
-(rerunfilecheck)             After:  350111C4E99A46E759C06228A6382E8E;4207.
+Package rerunfilecheck Info: File `PT_Documento.out' has not changed.
+(rerunfilecheck)             Checksum: ED70C2F2FC67FE0D26ED96EDB9CE50D4;4471.
  ) 
 Here is how much of TeX's memory you used:
- 11166 strings out of 473835
- 177646 string characters out of 5731947
- 614654 words of memory out of 5000000
- 34098 multiletter control sequences out of 15000+600000
+ 11574 strings out of 473835
+ 185507 string characters out of 5731947
+ 621304 words of memory out of 5000000
+ 34469 multiletter control sequences out of 15000+600000
  562037 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,11n,79p,2131b,685s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,79p,2164b,685s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PT_Documento.pdf (22 pages).
+Output written on PT_Documento.pdf (21 pages).

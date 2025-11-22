@@ -12,7 +12,7 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{float}
-
+\usepackage{enumitem}
 \geometry{letterpaper, margin=2cm}
 
 % Configuración de encabezado
@@ -38,25 +38,7 @@
 % -------------------------------------
 \begin{document}
 
-\begin{titlepage}
-    \centering
-    {\large \textbf{Universidad Autónoma Metropolitana Unidad Cuajimalpa}}\\[0.5cm]
-    {\large División de Comunicación y Diseño}\\[0.5cm]
-    {\large Licenciatura en Tecnologías y Sistemas de la Información}\\[1cm]
-    
-    \rule{\linewidth}{0.5mm}\\[0.4cm]
-    {\Huge \bfseries Gestor de Notas }\\
-    \rule{\linewidth}{0.5mm}\\[1.5cm]
-    
-    \begin{flushright}
-    \textbf{Autor:} Omar Jhonatan Sosa Bobadilla\\
-    \textbf{Asesores:} Dr.\ Guillermo Monroy\\
-    \hspace*{1.2cm} Dr.\ Dominique Decouchant\\[1.5cm]
-    \end{flushright}
-    
-    {\large Ciudad de México, Cuajimalpa\\
-    Julio de 2025}
-\end{titlepage}
+\input{chapters/portada.tex}
 
 \thispagestyle{fancy} % Aplica encabezado después de la portada
 
@@ -70,274 +52,22 @@
 % -------------------------------------
 % Secciones
 % -------------------------------------
-
-\chapter*{Resumen}
-\thispagestyle{fancy}
-\addcontentsline{toc}{chapter}{Resumen}
-Este proyecto se creó ante la necesidad de poder crear una base de conocimiento propia a partir de apuntes o notas, de fácil y rápido acceso, en la cual poder tener una mejor organización de los mismos, en la que se pueda mantener y tener conciencia de un orden de esta base de conocimientos. Con el desarrollo de este mismo se plantea como propósito que cada persona que haga uso de esta pueda consultar, estudiar y reforzar el conocimiento generado por sí mismo y demás usuarios a través de notas electrónicas, sin la necesidad de tener que consultar un cuaderno o libro, anteponiendo el uso de la tecnología como medio principal. Para lograr esto, se planea desarrollar el proyecto mediante una metodología ágil basada en Scrum, dividiendo el desarrollo del proyecto en sprint. Con el desarrollo de este proyecto se busca lograr desarrollar una aplicación multiplataforma en la que los usuarios puedan consultar por distintos medios las notas que generen por medios electrónicos, teniendo como beneficio el poder consultar sus notas por medio de un asistente, al que se le puedan generar preguntas que puedan responder con la base de conocimientos que el usuario mismo genere. Este proyecto busca contribuir al orden del conocimiento de los usuarios, dar como beneficio que, sin importar el lugar en el que se encuentren, puedan consultar sus notas y apuntes, buscar la colaboración de los usuarios a través de la generación de bases de conocimientos que sean de acceso de quien lo necesite y tenga interés por aportar o mejorar estas bases.
-
-\chapter{Introducción}
-\thispagestyle{fancy}
-
-\justifying 
-
-\noindent En el ámbito académico y profesional, los estudiantes se suelen apoyar de notas cuando desean aprender o reforzar algo nuevo o poner en práctica alguna habilidad. Tambien, los estudiantes emplean diferentes formas de hacer apuntes. Desde hace 68 años, comenzó el uso de medios electrónicos que permiten un acceso, gestión y toma rápida de notas y apuntes. Recientemente, se ha popularizado el uso de herramientas como: Notion, Obsidian, OneNote, entre otras.\\
-A lo largo de la vida académica y profesional, se tiene la necesidad de organizar y reconocer el contenido de grandes volúmenes de apuntes, notas y tareas. A pesar de la existencia de las herramientas ya mencionadas, estás suelen carecer de funciones que permitan hacer consultas con contexto, ademas dependen de tener una conexión a internet, lo cual dificulta su uso y acceso. Por otro lado, al utilizar estas herramientas, se pierde el control de nuestros recursos generados. Ya que nuestra información depende de servicios de terceros. Si las herramientas desaparecen, nuestra información se pierde junto con ellas, estás herramientas carecen de seguridad y privacidad de la información que se genera. 
-
-\section{Justificación}
-\noindent El gestor de notas inteligentes puede considerarse de suma importancia para estudiantes especialmente de nivel universitario y preparatoria, ya que proporciona una solución idónea a la necesidad de organizar sus notas y estructurar su conocimiento de manera personalizada, dando la confianza de que la información sera resguardada de forma segura y privada, asi mismo tendrán acceso a consultas de manera personalizada y eficiente. De igual modo, es de utilidad para docentes, profesionales y cualquier persona interesada en consultar o compartir sus notas y conocimientos en cualquier momento.\\
-
-\noindent Además, se resaltan los siguientes aspectos que evidencían la relevancia y el valor añadido de esta propuesta tales como: \\
-
-\begin{itemize}
-\item La privacidad del contenido e información: al operar de manera local se garantiza tener un mayor control sobre los datos del usuario, minimizando el riesgo de  filtraciones no deseadas. De igual manera, al descartar el uso de hardware externo, se optimiza el rendimiento del procesamiento de la información, evitando consultas reiteradas de fuentes externas.
-
-\item Accesibilidad ampliada: al no requerir conexión a internet, el acceso a la información puede realizarse desde cualquier ubicación geográfica, garantizando la disponibilidad constante para el usuario.
-
-\item Colaboración entre usuarios: La ausencia de una arquitectura centralizada facilita el intercambio y la complementación del conocimiento, especialmente entre la comunidad estudiantil.
-
-\item Innovación en el ámbito académico: La implementación del procesamiento local del lenguaje natural y sistemas distribuidos posiciona a este proyecto en areas de gran potencial de desarrollo y aplicación en el ámbito educativo.
-
-\item Simplicidad en la experiencia del usuario: El empleo de procesamiento de información multimodal elimina la dependencia de un único método para alimentar la base de conocimientos y el acceso a ésta, facilitando el manejo sin complicaciones para el usaurio.
-
-\item Acceso multiplataforma: Al hacer uso de tecnologías multiplataforma, podemos asegurar que el gestor de notas inteligente este disponible en diversos dispositivos y sistemas operativos, evitando así la limitación a una única plataforma.
-
-\end{itemize}
-
-\section{Objetivo general}
-\noindent Como objetivo general de este Proyecto Terminal se busca desarrollar una aplicación de gestión de notas inteligente en la cual los usuarios (principalmente estudiantes de la UAM Cuajimalpa) podrán generar una base de conocimientos con recursos digitales de manera local sin hacer uso de una conexión de internet, con la que podran hacer consultas en lenguaje natural a un asistente de inteligencia artificial y que conteste únicamente con datos de la base de conocimientos.\\
-
-\section{Objetivos específicos}
-\noindent Para lograr el desarrollo del gestor de notas inteligente se proponen dividir el desarrollo del proyecto en tres: Proyecto Terminal 1, Proyecto Terminal 2 y Finalizar el desarrollo en Proyecto Terminal 3, estas se los siguientes objetivos específicos para lograr un buen desarrollo:\\
-
-\subsubsection{Proyecto Terminal 1}
-
-\begin{itemize}
-\item Analizar la problemática de la gestión de notas para definir los requerimientos y el alcance funcional de la aplicación “Gestor de Notas Inteligente”.
-
-\item Delimitar las funciones principales que deberá cumplir la aplicación al finalizar su desarrollo, estableciendo criterios medibles.
-
-\item Diseñar la arquitectura general del sistema, representando flujos de trabajo mediante diagramas UML que muestren la interacción entre los componentes.
-
-\item Elaborar el modelo de datos que permitirá almacenar y gestionar la información necesaria para el funcionamiento del sistema.
-
-\item Determinar las tecnologías, frameworks y herramientas más adecuadas para el desarrollo de la aplicación.
-\end{itemize}
-
-\subsubsection{Proyecto Terminal 2}
-
-\begin{itemize}
-
-\item Desarrollar un prototipo funcional del “Gestor de Notas Inteligente” que incluya las principales funcionalidades orientadas a la interacción con el usuario.
-
-\item Implementar una interfaz de usuario intuitiva que permita una experiencia de uso amigable y reduzca la posibilidad de errores.
-
-\item Construir una base de conocimiento utilizando bases de datos vectoriales (como FAISS o ChromaDB) para almacenar y gestionar información en distintos formatos (texto, imágenes, audio).
-
-\item Implementar un motor de búsqueda semántica basado en \textit{embeddings} y modelos de lenguaje (como Llama 3 o \textit{Mistral}) para optimizar la recuperación de información relevante.
-
-\end{itemize}
-
-\subsubsection{Proyecto Terminal 3}
-
-\begin{itemize}
-
-\item Completar el desarrollo del prototipo mediante la implementación de un sistema de replicación como \textit{peer-to-peer} (P2P) que permita la sincronización y colaboración entre bases de conocimiento de diferentes usuarios.
-
-\item Integrar funciones de reconocimiento de voz (STT) y síntesis de voz (TTS) que amplíen las modalidades de entrada y salida de información dentro de la aplicación.
-
-\item Evaluar el desempeño, la seguridad y la estabilidad de la aplicación mediante pruebas finales que aseguren el cumplimiento de los requisitos definidos en fases anteriores.
-
-\item Documentar los resultados, reportar defectos encontrados y analizarlos para establecer mejoras y asi poder validar el cumplimiento de los objetivos generales del proyecto.
-
-\end{itemize}
-
-\section{Alcances del proyecto}
-\noindent El alcance que se plantea para la aplicación gestor de notas inteligentes es desarrollar una aplicación multiplataforma en la que los usuarios tendrán acceso a las siguientes funcionalidades.\\
-
-El usuario podrá generar una base de conocimiento con diferentes contenidos digitales, esta funcionalidad se logrará con herramientas de bases de datos vectoriales que permitirán lograr una búsqueda semántica entre los datos que el usuario ingrese además estas herramientas permiten una escalabilidad en la de información que la base de conocimiento del usuario posea esto permitirá y garantizará una búsqueda optimizada, delimitada y con términos sugeridos según el usuario lo requiera de igual forma al garantizar esta implementación permitirá una integración con el Chat Bot.\\
-
-Como segundo punto a desarrollar es la implementación de un sistema distribuido con mecanismos como peer-to-peer (P2P), (libp2p, WebRTC en LAN), estos permitirán prever errores al no prescindir de un sistema centralizado permitirá utilizar a diferentes usuarios como un respaldo asimismo podremos sincronizar y compartir múltiples nodos para compartir bases de conocimiento de otros usuarios, estas funcionalidades convierten a la aplicación gestor de notas inteligente en una aplicación mas robusta también garantizaremos la colaboración y el enriquecimiento del conocimiento con otros usuarios.\\
-
-Por ultimo el proyecto se enfocara en el desarrollo y la implementación de un Chat Bot, mediante modelos de lenguaje local (Llama 3, Mistral o similares), permitiendo a los usuarios una interacción cercana y privada con el contenido de su base de conocimientos generado esto también representa un punto de innovación en el desarrollo del proyecto.\\
-
-\section{Limitaciones}
-\noindent A pesar de la utilidad que este proyecto tiene, podemos describir limitaciones tecnológicas y de recursos que pueden dificultar su desarrollo que se describiremos a continuación:\\
-
-El proyecto no hará uso de conexión a internet por lo que la replicación o colaboración entre usuarios puede verse limitada por la conexión y uso de redes locales, esto representa una limitación en cuanto a la cantidad de usuarios y la colaboración entre los mismos.\\
-
-Otro punto a destacar es el uso de hardware del usuario, ya que este limita el rendimiento de la aplicación al incluir funcionalidades como el procesamiento de datos esto requiere un consumo de recursos de hardware que se esté empleando.\\
-
-Una limitación metodológica que pude encontrar, es en el material con el que se generara la base de conocimientos del usuario, la certidumbre que la información del usuario tenga ya que si este no corroborará o cerciorara que la información sea fiable podemos caer en una falsa \textit{praxis} de la información, con la que se este generando una nota o conversación.\\
-\\
-
-
-Cabe destacar que el diseño de una interfaz de usuario y una experiencia de usuario pueden limitar el desarrollo de la aplicación ya que esto tiene como principal objetivo el generar atractivo y confianza al usuario, garantizando que su información este segura y se mantendrá privada de consultas externas.\\
-
-Por ultimo otra limitante que se encontró en cuanto a los recursos en el desarrollo de la aplicación de gestión de notas es el tiempo que se tiene para llegar a cumplir los objetivos deseados, ya que al disponer de solo tres trimestres, el tiempo que se tiene es relativamente corto.\\
-
-\chapter{Planteamiento del Problema}
-\thispagestyle{fancy}
-\noindent En el contexto académico el principal objetivo que se tiene es obtener nuevo conocimiento y hacer uso o practica del conocimiento, tradicionalmente en el contexto académico se hace uso de herramientas o medios físicos como: notas generadas a mano, anotaciones en textos o libros físicos o notas dispersas generadas en cuaderno u hojas. Todo esto con el fin de enriquecer nuestro aprendizaje y dar paso a una correcta aplicación del conocimiento.\\
-
-Al analizar esta situación encontramos que puede volverse un problema en el momento en que generemos una gran volumen de notas sobre varios temas de diferentes tópicos y al momento de necesitar consultarlas o mejorarlas no dispongamos de un acceso fácil ya que en su mayoría dependemos de un medio físico para acceder a ellas de igual manera poder tener un acceso fácil y rápido depende del volumen físico del medio físico que se quiera consultar y del lugar en donde necesitemos o dispongamos de su acceso.\\
-
-Sin embargo la tecnología a mejorado y nos ha permitido tener beneficios como: un mejor acceso a la información, resguardar información que necesitemos, brindarnos un fácil acceso a esta y no depender totalmente de un medio físico para poder asegurarnos el acceso a la información. Ahora si bien existen herramientas modernas como: Notion, Obsidian, Google Docs, entre otras, que facilitan obtener los beneficios ya mencionados además revolucionan la manera en la podemos generar nuestras notas y apuntes de manera digital.\\
-
-Estas herramientas no nos garantizan la seguridad de los datos que generamos al usarlas así como su uso que le dan a nuestros datos, de igual manera no nos aseguran el respaldo de los datos que almacenemos en estas herramientas, se genera una incertidumbre de que pasara con los datos si estas herramientas llegan a desaparecer.\\
-
-Por ultimo uno de los principales problemas a los que se enfrentan los estudiantes y profesionales es la organización de las notas que generen a lo largo de su vida, teniendo como resultado un sesgo en cuanto se llega a conocer sobre un tema o las metodologías con las que pueden aprender generando un sentimiento de incertidumbre y miedo.\\
-
-Por lo tanto el desarrollo de una aplicación en la cual los usuarios puedan confiar, asegurar un correcto uso de la información, garantizar un fácil acceso a la información y  puedan consultar sin la necesidad de disponer del medio puede ser  de gran utilidad para los usuarios.\\
-
-Si además esta aplicación pueda dar recomendaciones acerca de su modelo de aprendizaje y ayudar a generar notas de calidad sin depender totalmente de medios físicos o plataformas que en algún momento privatizaran todo lo mencionado será de gran valor para los usuarios.\\
-
-
-\section{Problema a resolver}
-
-\noindent Como se menciono anteriormente una de las limitaciones al hacer uso de plataformas como: Notion, Obsidian, Google Docs o herramientas de Microsoft, entre otras, es que no generan gran confianza a los usuarios, con respecto a temas de privacidad, accesibilidad y además de esto algunas representan un gran reto al conocer y aprender la interfaz con la cual puedan generar notas o información, la curva de aprendizaje puede ser prolongada para llegar a avances y cumplir con un objetivo.\\
-
-Además de satisfacer necesidades de estudiantes y profesionales como la organización del conocimiento y el acceso fácil a través de medios digitales sin importar el espacio físico en el que se encuentren representan un problema a resolver.\\
-
-Por ello, se requiere diseñar una aplicación que genere confianza al usuario, que además busque lograr una conexión cercana entre el conocimiento y el usuario para así lograr ayudar a tener una mejor accesibilidad, mayor confianza y privacidad al conocimiento que cada usuario obtenga.\\
-
-\section{Contexto de uso de la aplicación}
-\noindent En esta sección se plantea el escenario o contexto de uso de la aplicación, se presenta desde los problemas que tiene el usuario con sus notas hasta el caso de uso principal que resuelve este problema con la aplicacion Gestor de notas inteligente como se puedo ver en la figura\ref{fig:Contexto}.
-
-\subsubsection{Descripción del contexto de uso}
-\noindent En la figura\ref{fig:Contexto} podemos observar un flujo que describe el contexto de uso de la aplicacion gestor de notas inteligente, en el cual el principal actor son el usuario y las notas, de esta manera como podemos ver en el \textbf{punto 1} de la figura \ref{fig:Contexto} se muestra como el usuario generá notas y apuntes de diferentes fuentes o de diferentes situaciones en las que unicamente muestra la generacion sin dar una organización o etiquetado pasando en el mismo proceso a la colabroacion de las notas, despues pasamos al \textbf{punto 2} mostramos se muestra el resultado del punto en el que el usuario acumula notas de diversos temas, después en el \textbf{Punto 3} el usuario a partir de estas conjunto de notas que poseé necesita consultarlas o generar nuevas, pero nos encontramos con tres principales problematicas \textbf{Punto 4}, estas probematicas posteriormente nos permitiran presentar la solución de la aplicacion gestor de notas inteligente:
-\begin{itemize}
-    \item Transporte: El usuario desea consultar sus notas y apuntes mientras hace uso del transporte, esto dificulta el acceso de las notas al no tener un sistema centralizado en el cual recopilarlas.
-
-    \item Organización: El usuario no respeta un orden u organizacion de todas las notas generadas lo cual representa un problema lo cual dificulta su busqueda y retrazan la accion que desee hacer con las notas.
-
-    \item Estudio: El usuario necesita estudiar ayudandose de las notas generadas pero muchas veces solo se necesita estudiar temas en especificos lo cual si el contenido de las notas no esta organizado o bien definido puede retrasar el estudio al dedicar mas tiempo en la busqueda de temas concretos u especificos.
-\end{itemize}
-
-\noindent Una vez mostradas estas problematicas podemos ve ren el \textbf{Punto 5}, como estas problematicas causan frustracion al usuario ante la falta de organización, contexto o accebilidad, a partir de esto proponemos el principio de uso de la aplicacion gestor de notas inteligente \textbf{Punto 6} en la que principalmente se propone centralizar las notas que el usuario posea explicandolo de manera en que se tienen el usuario, las notas que el usuario acumule y una aplicacion en la que se puedan centralizar, de esta manera nos da como resultado la creacion de una base de conocimiento, siendo este el punto central de la solución como podemo sver en el \textbf{Punto 7}, una vez centralizadas las notas podemos resolver los problemas de organización, estudio y transporte, generando un sistema clasificador con el cual clasifique las notas relacionando con su contenido encontrando similitudes entre palabras clave o etiquetas \textbf{Punto 8}, dando estructura y orden a las notas del usuario \textbf{Punto 9}, logrando generar un contexto o medio en el cual el usuario podra consultar mediante preguntas o palabras en leguaje natural a la base de conocimiento siendo este el  contexto principal de uso de la aplicacion \textbf{Punto 10}, esto mediante una aplicación \textbf{Punto 12}, en el cual se muestran dos posibles resultados, primero \textbf{Punto 13} en el cual si se encuentra informacion el chatbot nos contestara dando la informacion que encuentre unicamente en la base de conocimeitno del usuario, y la segunda posibilidad \textbf{Punto 14} en la que si el chatbot no encuentra nada informara al usuario y se le dara una recomendacion de que haga alguna nota o adjunte informacion nueva con relación a este tema, dando como resultado el final del contexto de uso de la aplicacion gestor de notas inteligente \textbf{Punto 15} en el que el usuario tendra un mejor acceso a la informacion con consultas totalmente personalizadas con información organizada y lo mas importante con informacion propia.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.99\linewidth]{Contexto_2.png}
-    \caption{Contexto de uso de la aplicación}
-    \label{fig:Contexto}
-\end{figure}
-
-
-\section{Preguntas de investigación}
-\noindent estas preguntas se busca ayudar a aclarar si la generación de una aplicación orientada a la generación del conocimiento puede ayudar a los estudiantes y a diferentes tipos de usuarios.
-\begin{itemize}
-\item ¿Cómo la consulta de notas puede ayudar al desarrollo y mejora del conocimiento?
-
-\item ¿Cuál es el beneficio de generar notas para los usuarios?
-
-\item ¿El desarrollo de un sistema offline para la consulta de las notas es posible sin la total dependencia de una conexión?
-
-\item ¿Cómo se puede hacer colaboración entre usuarios sin la total dependencia de una conexión local o remota?
-
-\end{itemize}
-
-\chapter{Marco Teórico}
-\thispagestyle{fancy}
-\section{Definición de términos clave}
-\noindent En este apartado se presentarán conceptos y términos clave que permitirán comprender y entender de mejor manera el contenido del documento.
-\begin{itemize}
-
-\item ChatBot: Para este protyecto se utiliza el concepto de chatbot, el cual podemos definir como, un sistema con el que el usuario puede interactuar generando una conversacion en lenguaje natural, haciendo preguntas acerca de diversos temas por medio de voz o texto, Este sistema podra aprender, entender y adaptarse a un contexto de diversos temas, ademas el chatbot podra hacer recomendaciones acerca de informacion que el usuario necesite o le pueda ser de ayuda.\cite{chatbot_AWS,chatbot_IBM}
-
-\end{itemize}
-
-\section{Estado del Arte}
-En esta seccion realizaré un analisis comparativo con las principales soluciones de software disponibles en el mercado y que tienen relacion con el proyecto gestor de notas inteligente, este analisis nos permitira conocer los principales diferenciadores con respecto a estas soluciones permitiendonos ademas mostrar la importancia o los beneficios del desarrollo de este proyecto, para esto tomaré aplicaciones como: Notion, Obsidian, NotebookLM .\\
-
-\noindent Notion: Notion es una herramienta multiplataforma de trabajo todo en uno, esta herramienta se centra principalmente en generar espacios de trabajo propios o para equipos, estos espacios pueden ser totalmente personalizables ademas de facilitar la creacion de documentos, planificacion del trabajo, el seguimiento y gestion de proyectos, Notion permite la creaion de bases de conocimientos y la estructura de notas.\cite{Notion_2025,Notion_Personal} \\
-
-\noindent Obsidian: Es una aplicacion gratuita y flexible para organizar conocimiento, desde llevar la creacion de diarios, hasta crear bases de conocimientos y gestionar proyectos, obsidian crea los archivos en formatos abiertos por lo que no se depende de un solo formato ademas estos archivos los guarda de manera privada. \cite{Obsidian}\\
-
-\noindent NotebookLM: NotebookLM se define como un compañero o ayudante de investigacion y reflexion que se basa unicamente en informacion en la que confie el usuario, esta aplicacion incorpora IA usando modelos Gemini, NotebookLM ofrece la posibilidad de potenciar el estudio, organizar ideas y generar nuevas ideas a travez de consultas y la generacion de diversos contenidos. \cite{NotebookLM}\\
-
-\begin{table}[H]
-\centering
-\scriptsize
-\caption{Comparativa entre Gestor de Notas Inteligente y aplicaciones comerciales}\label{tab:comparativa_final}
-\renewcommand{\arraystretch}{0.9}
-\begin{tabularx}{\textwidth}{p{2.3cm} X X X X}
-\toprule
-\textbf{Categoría} & \textbf{Notion} & \textbf{Obsidian} & \textbf{NotebookLM} & \textbf{Gestor de Notas Inteligente} \\
-\midrule
-Enfoque & Productividad y colaboración. & Conocimiento personal (Markdown local). & Asistente de IA para lectura y resumen. & IA local para gestión y consulta de notas. \\
-\addlinespace
-Almacenamiento & En la nube. & Local, con opción de sincronizar. & En la nube (Google). & 100\% local y privada. \\
-\addlinespace
-Privacidad & Datos gestionados por servidores externos. & Control parcial del usuario. & Total dependencia de Google. & Privacidad y control total del usuario. \\
-\addlinespace
-Acceso offline & Limitado. & Parcial. & No disponible. & Totalmente funcional sin conexión. \\
-\addlinespace
-IA & Basada en OpenAI (nube). & Sin IA nativa (plugins externos). & IA de Google (nube). & Modelos locales. \\
-\addlinespace
-Colaboración & En tiempo real (nube). & Limitada o manual. & Sin colaboración directa. & distribuido. \\
-\addlinespace
-Experiencia de usuario & Intuitiva pero con curva alta. & Técnica y avanzada. & Simple y guiada. & Intuitiva, ligera y accesible. \\
-\addlinespace
-Educativo & General y flexible. & Enfocado a investigación personal. & Lectura y síntesis. & Dirigido a estudiantes y docentes. \\
-\addlinespace
-Plataformas & Web, escritorio y móvil. & Escritorio y móvil. & Web y Movil. & Web, escritorio y móvil. \\
-\addlinespace
-Filosofía & Productividad visual y colaborativa. & Conexión entre ideas. & Automatización mediante IA. & Autonomía, privacidad y conocimiento local. \\
-\bottomrule
-\end{tabularx}
-\end{table}
-
-\noindent Por lo tanto esta comparativa mostrada en el cuadro \ref{tab:comparativa_final} nos muestra las principales diferencias entre las aplicaciones existente en el mercado y el gestor de notas inteligente en el cual podemos concluir que brindar seguridad a los usuarios de que la informacion estara siempre disponible y segura es el principal diferenciador.
-
-\chapter{Marco Metodológico}
-\thispagestyle{fancy}
-\section{Metodología}
-
-\section{Recolección de Datos}
-
-\section{Herramientas}
-
-\section{Diagramas Preliminares}
-
-\chapter{Requerimientos}
-\thispagestyle{fancy}
-\section{Funcionales}
-\section{No Funcionales}
-
-
-\chapter{Diseño Preliminar del Sistema}
-\thispagestyle{fancy}
-\section{Arquitectura del Sistema}
-
-\section{Prototipos de Interfaz}
-
-\section{Diagramas UML}
-
-
-
-\chapter{Especificación Técnica}
-\thispagestyle{fancy}
-
-Para el desarrollo de la aplicacion de gestión de notas, se seleccionó un stack tecnológico que garantiza privacidad, procesamiento local y colaboración sin conexión a internet.
-Se propone hacer uso de las tecnologias JavaScript y TypeScript para la construcción de la aplicación, con posibilidad de ampliar a dispositivos móviles usando React Native o Flutter. Para el procesamiento de lenguaje natural y manejo de modelos locales se propone hacer uso de modelos como Llama 3 o Mistral.
-La base de datos principal será una solución vectorial como FAISS o ChromaDB, permitiendo búsquedas semánticas eficientes, complementada con bases ligeras locales como SQL.
-La sincronización entre usuarios se realizará mediante redes peer-to-peer, usando libp2p y WebRTC para comunicaciones seguras y sin servidores centrales.
-Para la interacción multimodal, se integrarán tecnologías de reconocimiento y síntesis de voz locales, como DeepSpeech o Whisper para STT, y Festival TTS para Text-to-Speech.
-La interfaz se desarrollará con frameworks modernos como React o Angular, buscando una experiencia accesible y confiable.
-Este conjunto tecnológico asegura una solución robusta, privada y colaborativa, alineada con los objetivos del proyecto.
-
-\chapter{Impacto Esperado}
-\thispagestyle{fancy}
-\chapter*{Referencias}
-\thispagestyle{fancy}
+\input{chapters/0.resumen.tex}
+\input{chapters/1.introduccion.tex}
+\input{chapters/2.planteamiento.tex}
+\input{chapters/3.marco_teorico.tex}
+\input{chapters/4.estado_arte.tex}
+\input{chapters/5.marco_metodologico.tex}
+\input{chapters/6.propuesta.tex}
+\input{chapters/7.cronograma.tex}
+\input{chapters/8.especificacion.tex}   
 
 \bibliographystyle{plain}
 \bibliography{PT_GestorNotas}
 
-\appendix
-\chapter{Anexos}
-\thispagestyle{fancy}
+%\appendix
+%\chapter{Anexos}
+%\thispagestyle{fancy}
 
 
 \end{document}
