@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  22 NOV 2025 13:14
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  22 NOV 2025 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,39 +613,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
 
 [14
 
 ]
-File: Contexto_2.png Graphic file (type bmp)
-<Contexto_2.png>
+File: images/Contexto_2.png Graphic file (type bmp)
+<images/Contexto_2.png>
 
 
-LaTeX Warning: Float too large for page by 27.19183pt on input line 30.
+LaTeX Warning: Float too large for page by 27.19183pt on input line 28.
 
-) (./chapters/7.cronograma.tex
+File: diagramas/architecture.png Graphic file (type bmp)
+<diagramas/architecture.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+File: diagramas/use_cases.png Graphic file (type bmp)
+<diagramas/use_cases.png>
+
+LaTeX Warning: Float too large for page by 24.94649pt on input line 60.
+
+
 
 [15]
 
 [16]
+
+[17]
+File: diagramas/prototipo.png Graphic file (type bmp)
+<diagramas/prototipo.png>
+) (./chapters/7.cronograma.tex
+
+[18]
+
+[19]
 Capítulo 7.
-File: Diagramas_UML/Prueba.png Graphic file (type bmp)
-<Diagramas_UML/Prueba.png>
+File: diagramas/Prueba.png Graphic file (type bmp)
+<diagramas/Prueba.png>
 ) (./chapters/8.especificacion.tex
 
-[17
+[20
 
 ]
 
-[18]
+[21]
 Capítulo 8.
 ) (./PT_Documento.bbl
 
-[19
+[22
 
 ])
 
-[20
+[23
 
 ] (./PT_Documento.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -660,15 +686,15 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `PT_Documento.out' has not changed.
-(rerunfilecheck)             Checksum: ED70C2F2FC67FE0D26ED96EDB9CE50D4;4471.
+(rerunfilecheck)             Checksum: 2D5B578FFF4F4EE4FB5B865C95BFB227;4379.
  ) 
 Here is how much of TeX's memory you used:
- 11574 strings out of 473835
- 185507 string characters out of 5731947
- 621304 words of memory out of 5000000
- 34469 multiletter control sequences out of 15000+600000
+ 11604 strings out of 473835
+ 186314 string characters out of 5731947
+ 621412 words of memory out of 5000000
+ 34495 multiletter control sequences out of 15000+600000
  562037 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,11n,79p,2164b,685s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PT_Documento.pdf (21 pages).
+Output written on PT_Documento.pdf (24 pages).

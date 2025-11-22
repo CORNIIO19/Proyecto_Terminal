@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+actor Estudiante as e
+actor Profesor as p
+actor Experto as ex
+ex --|> p : <<include>>
+
+rectangle "Gestor Inteligente de Notas Académicas" {
+    e --> (Consultar Notas)
+    e --> (Agregar Notas)
+    e --> (Modificar Notas)
+    e --> (Eliminar Notas)
+    e --> (Buscar Notas)
+    e --> (Organizar Notas)
+    e --> (Sincronizar Notas)
+    e --> (Realizar Copias de Seguridad)
+    e --> (Recuperar Copias de Seguridad)
+    e --> (Recibir Notificaciones)
+    e --> (Solicitar Resumen de Notas)
+    p --> (Calificar Notas)
+    p --> (Consultar Notas)
+    p --> (Recibir Notificaciones)
+    p --> (Enviar Notificaciones)
+
+}
+@enduml

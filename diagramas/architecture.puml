@@ -1,0 +1,37 @@
+@startuml
+title Arquitectura del Gestor Inteligente de Notas Académicas
+
+
+package "Aplicación Móvil" {
+ [Interfaz de Usuario] --> [Módulo de Gestión de Notas]
+ [Módulo de Gestión de Notas] <--> [Módulo de Sincronización]
+ [Módulo de Gestión de Notas] <--> [Módulo de Análisis de Contenido]
+ [Módulo de Gestión de Notas] <--> [Índice Local]
+ [Módulo de Gestión de Notas] <--> [Módulo de Búsqueda Avanzada]
+ [Módulo de Gestión de Notas] <--> [Módulo de Recordatorios y Notificaciones]
+ [Módulo de Gestión de Notas] <--> [Módulo de Copias de Seguridad]
+ [Módulo de Búsqueda Avanzada] <--> [Índice Local]
+ [Módulo de Análisis de Contenido] <--> [Módulo de Etiquetado Inteligente]
+ [Módulo de Análisis de Contenido] <--> [Módulo de Resumen Automático]
+ [Módulo de Seguridad y Privacidad] <--> [Cifrado de Datos]
+ [Módulo de Seguridad y Privacidad] <--> [Autenticación de Usuarios]
+ [Módulo de Seguridad y Privacidad] <--> [Control de Acceso]
+ [Módulo de Recordatorios y Notificaciones] <--> [Servicio de Notificaciones Push]
+ [Módulo de Recordatorios y Notificaciones] <--> [Índice Local]
+ [Módulo de Resumen Automático] <--> [Módulo de Etiquetado Inteligente]
+ [Módulo de Copias de Seguridad] <--> [Almacenamiento Local]
+ [Almacenamiento Local] <--> [Módulo de Sincronización]
+}
+package "Backend Offload" {
+  [API REST] --> [Gestor de Notas en la Nube]
+  [API REST] -->  [Servicio de Cifrado de Datos]
+  [Servicio de Cifrado de Datos] --> [Base de Datos NoSQL]
+  [API REST] --> [Servicio de Autenticación]
+}
+package "Servicios Externos" {
+    [Servicio de Almacenamiento en la Nube] --> [API de Almacenamiento]
+}
+[Módulo de Sincronización] --> [API REST]
+[API REST] --> [API de Almacenamiento]
+
+@enduml

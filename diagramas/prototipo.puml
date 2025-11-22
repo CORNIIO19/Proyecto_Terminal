@@ -1,0 +1,27 @@
+@startuml
+title Prototipo de Interfaz - Gestor Inteligente de Notas Académicas
+skinparam backgroundColor #F9F9F9
+skinparam component {
+    BackgroundColor<<MainScreen>> #D6EAF8
+    BackgroundColor<<NoteManagement>> #D5F5E3
+    BackgroundColor<<Settings>> #FCF3CF
+    BorderColor #2C3E50
+    FontColor #2C3E50
+}       
+package "Pantalla Principal" <<MainScreen>> {
+    [Resumen de Notas]
+    [Acceso a Secciones]
+    [Gestión Rápida de Notas]
+}
+package "Gestión de Notas" <<NoteManagement>> {
+    [Crear Nueva Nota]
+    [Editar Nota Existente]
+    [Eliminar Nota]
+    [Buscar Notas]
+}
+package "Configuración" <<Settings>> {
+    [Preferencias de Usuario]
+    [Sincronización en la Nube]
+    [Notificaciones]
+}
+@enduml

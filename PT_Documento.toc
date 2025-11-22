@@ -22,13 +22,12 @@
 \contentsline {section}{\numberline {5.3}Herramientas}{13}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Diagramas Preliminares}{13}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Propuesta de Solución}{14}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Contexto de uso de la aplicación}{14}{section.6.1}%
-\contentsline {subsubsection}{Descripción del contexto de uso}{14}{section.6.1}%
+\contentsline {section}{\numberline {6.1}Escenario de uso}{14}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Requerimientos}{15}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Funcionales}{15}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}No Funcionales}{15}{subsection.6.2.2}%
 \contentsline {section}{\numberline {6.3}Arquitectura del Sistema}{15}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Prototipos de Interfaz}{15}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Cronograma}{17}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Calendario de Actividades}{17}{section.7.1}%
-\contentsline {chapter}{\numberline {8}Especificación Técnica}{19}{chapter.8}%
+\contentsline {section}{\numberline {6.4}Prototipos de Interfaz}{18}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Cronograma}{20}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Calendario de Actividades}{20}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Especificación Técnica}{22}{chapter.8}%
