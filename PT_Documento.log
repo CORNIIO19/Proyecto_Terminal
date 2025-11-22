@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  22 NOV 2025 16:06
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  22 NOV 2025 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,15 +381,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
-)
-\tf@toc=\write4
-\openout4 = `PT_Documento.toc'.
-
 
 
 [1
 
-]
+])
+\tf@toc=\write4
+\openout4 = `PT_Documento.toc'.
+
+
 
 [2] (./chapters/0.resumen.tex) (./chapters/1.introduccion.tex
 
@@ -532,11 +532,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--1
 
 [9]
 Capítulo 3.
-) (./chapters/4.estado_arte.tex
+
+LaTeX Warning: Citation `evernote' on page 10 undefined on input line 14.
+
+
+LaTeX Warning: Citation `onenote' on page 10 undefined on input line 16.
+
+
+LaTeX Warning: Citation `notion' on page 10 undefined on input line 18.
+
+
+LaTeX Warning: Citation `google_keep' on page 10 undefined on input line 20.
+
+
 
 [10
 
 ]
+
+LaTeX Warning: Citation `gestion_notas' on page 11 undefined on input line 27.
+
+
+LaTeX Warning: Citation `sistemas_organizacion' on page 11 undefined on input line 28.
+
+
+LaTeX Warning: Citation `interfaz_usuario' on page 11 undefined on input line 29.
+
+
+LaTeX Warning: Citation `pln_overview' on page 11 undefined on input line 36.
+
+
+LaTeX Warning: Citation `language_models' on page 11 undefined on input line 40.
+
+
+LaTeX Warning: Citation `nosql_databases' on page 11 undefined on input line 42.
+
+
+
+[11]
+
+LaTeX Warning: Citation `recommender_systems' on page 12 undefined on input line 46.
+
+
+LaTeX Warning: Citation `web_technologies' on page 12 undefined on input line 50.
+
+
+LaTeX Warning: Citation `agile_methodologies' on page 12 undefined on input line 54.
+
+
+LaTeX Warning: Citation `data_security_privacy' on page 12 undefined on input line 59.
+
+
+
+[12]
+
+LaTeX Warning: Citation `user_experience' on page 13 undefined on input line 63.
+
+
+LaTeX Warning: Citation `digital_accessibility' on page 13 undefined on input line 66.
+
+
+LaTeX Warning: Citation `online_collaboration' on page 13 undefined on input line 70.
+
+
+LaTeX Warning: Citation `cloud_storage' on page 13 undefined on input line 74.
+
+
+
+[13]
+
+LaTeX Warning: Citation `ai_in_education' on page 14 undefined on input line 78.
+
+
+LaTeX Warning: Citation `sentiment_analysis' on page 14 undefined on input line 81.
+
+) (./chapters/4.estado_arte.tex
+
+[14]
 Capítulo 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -585,19 +657,19 @@ Underfull \hbox (badness 3291) in paragraph at lines 40--40
 
 
 
-[11
+[15
 
 ]) (./chapters/5.marco_metodologico.tex
 
-[12]
+[16]
 Capítulo 5.
 
 
-[13
+[17
 
 ]) (./chapters/6.propuesta.tex
 
-[14]
+[18]
 Capítulo 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -621,7 +693,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 
 
-[15
+[19
 
 ]
 File: images/Contexto_2.png Graphic file (type bmp)
@@ -644,28 +716,28 @@ LaTeX Warning: Float too large for page by 24.94649pt on input line 60.
 
 
 
-[16]
+[20]
 
-[17]
+[21]
 
-[18]
+[22]
 File: diagramas/prototipo.png Graphic file (type bmp)
 <diagramas/prototipo.png>
 ) (./chapters/7.cronograma.tex
 
-[19]
+[23]
 
-[20]
+[24]
 Capítulo 7.
 File: diagramas/Prueba.png Graphic file (type bmp)
 <diagramas/Prueba.png>
 ) (./chapters/8.especificacion.tex
 
-[21
+[25
 
 ]
 
-[22]
+[26]
 Capítulo 8.
 File: diagramas/tecnologias.png Graphic file (type bmp)
 <diagramas/tecnologias.png>
@@ -676,13 +748,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
 
 
-[23
+[27
 
 ]) (./PT_Documento.bbl
 
-[24])
+[28])
 
-[25
+[29
 
 ] (./PT_Documento.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -692,16 +764,20 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `PT_Documento.out' has not changed.
-(rerunfilecheck)             Checksum: FFB0A81C9E9C8C97AF7CB365A0DDD23A;4239.
+(rerunfilecheck)             Checksum: 21571C0FA72A415F630F3060E3337283;6920.
  ) 
 Here is how much of TeX's memory you used:
  11615 strings out of 473835
  186610 string characters out of 5731947
- 621320 words of memory out of 5000000
+ 624167 words of memory out of 5000000
  34505 multiletter control sequences out of 15000+600000
  562037 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,12n,79p,2174b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,2174b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PT_Documento.pdf (26 pages).
+Output written on PT_Documento.pdf (30 pages).
