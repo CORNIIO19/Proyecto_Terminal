@@ -17,17 +17,16 @@
 \contentsline {section}{\numberline {4.3}NotebookLM}{11}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Comparativa}{12}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Marco Metodológico}{13}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Metodología}{13}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Recolección de Datos}{13}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Herramientas}{13}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Diagramas Preliminares}{13}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Propuesta de Solución}{14}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Escenario de uso}{14}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Requerimientos}{15}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Funcionales}{15}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}No Funcionales}{15}{subsection.6.2.2}%
-\contentsline {section}{\numberline {6.3}Arquitectura del Sistema}{15}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Prototipos de Interfaz}{18}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Cronograma}{20}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Calendario de Actividades}{20}{section.7.1}%
-\contentsline {chapter}{\numberline {8}Especificación Técnica}{22}{chapter.8}%
+\contentsline {section}{\numberline {5.1}Recolección de Datos}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Herramientas}{13}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Propuesta de Solución}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Escenario de uso}{15}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Requerimientos}{16}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Funcionales}{16}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}No Funcionales}{16}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Arquitectura del Sistema}{16}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Prototipos de Interfaz}{19}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Cronograma}{21}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Calendario de Actividades}{21}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Especificación Técnica}{23}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Escenario de uso}{23}{section.8.1}%

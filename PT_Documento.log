@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  22 NOV 2025 15:54
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.1)  22 NOV 2025 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,15 +381,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
-
-
-[1
-
-])
+)
 \tf@toc=\write4
 \openout4 = `PT_Documento.toc'.
 
 
+
+[1
+
+]
 
 [2] (./chapters/0.resumen.tex) (./chapters/1.introduccion.tex
 
@@ -591,11 +591,13 @@ Underfull \hbox (badness 3291) in paragraph at lines 40--40
 
 [12]
 Capítulo 5.
-) (./chapters/6.propuesta.tex
+
 
 [13
 
-]
+]) (./chapters/6.propuesta.tex
+
+[14]
 Capítulo 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -619,7 +621,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 
 
-[14
+[15
 
 ]
 File: images/Contexto_2.png Graphic file (type bmp)
@@ -642,36 +644,45 @@ LaTeX Warning: Float too large for page by 24.94649pt on input line 60.
 
 
 
-[15]
-
 [16]
 
 [17]
+
+[18]
 File: diagramas/prototipo.png Graphic file (type bmp)
 <diagramas/prototipo.png>
 ) (./chapters/7.cronograma.tex
 
-[18]
-
 [19]
+
+[20]
 Capítulo 7.
 File: diagramas/Prueba.png Graphic file (type bmp)
 <diagramas/Prueba.png>
 ) (./chapters/8.especificacion.tex
 
-[20
+[21
 
 ]
 
-[21]
+[22]
 Capítulo 8.
-) (./PT_Documento.bbl
+File: diagramas/tecnologias.png Graphic file (type bmp)
+<diagramas/tecnologias.png>
 
-[22
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
-])
+ []
+
+
 
 [23
+
+]) (./PT_Documento.bbl
+
+[24])
+
+[25
 
 ] (./PT_Documento.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -686,15 +697,15 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `PT_Documento.out' has not changed.
-(rerunfilecheck)             Checksum: 2D5B578FFF4F4EE4FB5B865C95BFB227;4379.
+(rerunfilecheck)             Checksum: FFB0A81C9E9C8C97AF7CB365A0DDD23A;4239.
  ) 
 Here is how much of TeX's memory you used:
- 11604 strings out of 473835
- 186314 string characters out of 5731947
- 621412 words of memory out of 5000000
- 34495 multiletter control sequences out of 15000+600000
+ 11615 strings out of 473835
+ 186610 string characters out of 5731947
+ 621320 words of memory out of 5000000
+ 34505 multiletter control sequences out of 15000+600000
  562037 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,11n,79p,2164b,685s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,2174b,476s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PT_Documento.pdf (24 pages).
+Output written on PT_Documento.pdf (26 pages).

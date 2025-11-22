@@ -1,0 +1,20 @@
+@startuml
+title Stack tecnológico del Gestor Inteligente de Notas Académicas
+package "Aplicación Móvil" {
+ [Flutter] 
+ [Dart] 
+ [SQLite] 
+ [Firebase Cloud Messaging] 
+}
+package "Backend Offload" {
+  [Node.js]
+  [Express.js]
+  [MongoDB]
+  [JWT (JSON Web Tokens)]
+  [AWS S3]
+}
+package "Servicios Externos" {
+    [AWS S3]
+    [Firebase Cloud Messaging]
+}
+@enduml
