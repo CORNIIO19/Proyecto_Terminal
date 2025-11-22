@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex PT_Documento"] 1762796097.6424 "PT_Documento.aux" "PT_Documento.bbl" "PT_Documento" 1762796170.04505 0
+["bibtex PT_Documento"] 1763638872.27366 "PT_Documento.aux" "PT_Documento.bbl" "PT_Documento" 1763790554.38367 0
   "./PT_GestorNotas.bib" 1762794783.29325 3202 0df99b3a9cc17c8e7ff8eda6e76bad7a ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "PT_Documento.aux" 1762796169.42712 6335 7fc46354a4250a17f2785156936ce412 "pdflatex"
+  "PT_Documento.aux" 1763790553.76625 6335 7fc46354a4250a17f2785156936ce412 "pdflatex"
   (generated)
   "PT_Documento.bbl"
   "PT_Documento.blg"
   (rewritten before read)
-["pdflatex"] 1762796168.00206 "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" "PT_Documento.pdf" "PT_Documento" 1762796170.04544 0
+["pdflatex"] 1763790552.17451 "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" "PT_Documento.pdf" "PT_Documento" 1763790554.38402 0
   "/etc/texmf/web2c/texmf.cnf" 1750719697.9744 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" 1762796167.52586 29880 875d00aae84112baacb05782b7692b4b ""
+  "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" 1763639971.49166 30506 d42d1900eb81c5a5af5e755b61b133c5 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
@@ -91,13 +91,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1761075494 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1761075673 3347603 d500aa3f3c6b5e2266c5fb7abfd5498e ""
-  "Contexto.png" 1762577812.51788 195441 713b5a4baa44ace086be3a1eb6f3614d ""
+  "Contexto_2.png" 1762833988.02582 302826 34b79e0e1583226b230c33bf90c272d2 ""
   "Diagramas_UML/Prueba.png" 1762580622.47836 17628 60f1ac618aeffeb069250a089fe8859c ""
-  "PT_Documento.aux" 1762796169.42712 6335 7fc46354a4250a17f2785156936ce412 "pdflatex"
-  "PT_Documento.bbl" 1762796097.89715 555 d63e558c3e786a35191506e3dc8dfdf5 "bibtex PT_Documento"
-  "PT_Documento.out" 1762796169.43012 4487 01679ba647893d2acfd10a8196b5b4a1 "pdflatex"
-  "PT_Documento.tex" 1762796167.52586 29880 875d00aae84112baacb05782b7692b4b ""
-  "PT_Documento.toc" 1762796169.43112 2707 c618441aca22394a13786084c31e2173 "pdflatex"
+  "PT_Documento.aux" 1763790553.76625 6335 7fc46354a4250a17f2785156936ce412 "pdflatex"
+  "PT_Documento.bbl" 1763638872.53763 555 d63e558c3e786a35191506e3dc8dfdf5 "bibtex PT_Documento"
+  "PT_Documento.out" 1763790553.76925 4487 01679ba647893d2acfd10a8196b5b4a1 "pdflatex"
+  "PT_Documento.tex" 1763639971.49166 30506 d42d1900eb81c5a5af5e755b61b133c5 ""
+  "PT_Documento.toc" 1763790553.76925 2707 c618441aca22394a13786084c31e2173 "pdflatex"
   (generated)
   "PT_Documento.aux"
   "PT_Documento.log"

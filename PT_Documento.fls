@@ -160,11 +160,11 @@ OUTPUT PT_Documento.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
-INPUT ./Contexto.png
-INPUT ./Contexto.png
-INPUT ./Contexto.png
-INPUT ./Contexto.png
-INPUT ./Contexto.png
+INPUT ./Contexto_2.png
+INPUT ./Contexto_2.png
+INPUT ./Contexto_2.png
+INPUT ./Contexto_2.png
+INPUT ./Contexto_2.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT ./Diagramas_UML/Prueba.png
 INPUT ./Diagramas_UML/Prueba.png

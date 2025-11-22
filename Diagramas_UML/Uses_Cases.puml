@@ -1,0 +1,29 @@
+@startuml "Casos_de_uso_Gestor_de_Notas_Inteligente"
+
+left to right direction
+
+actor Usuario as Usr 
+actor Filtro_Precision as Vrf
+' actor Base_Conocimientos as Base
+
+node Dispositivo_Principal as Pr1
+node Segundo_Dispositivo as Pr3 
+node Tercer_Dispositivo as Pr2
+
+package Aplicacion_Gestor_Notas_Iteligente{
+    usecase "Adjuntar notas Digitales" as CU1
+    usecase "Eliminar Notas" as CU2
+    usecase "Modificar Notas" as CU3
+    usecase "Crear Base de DAtos" as CU4
+    node Base_Conocimientos as Base
+    node Sistema_Clasificador as Rel
+}
+
+Usr --> CU1
+Usr --> CU2
+Usr --> CU3
+Usr --> CU4
+
+
+
+@enduml
