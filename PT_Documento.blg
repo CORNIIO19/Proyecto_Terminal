@@ -1,0 +1,122 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: PT_Documento.aux
+The style file: plain.bst
+Database file #1: PT_GestorNotas.bib
+Warning--entry type for "Notion_Personal" isn't style-file defined
+--line 2 of file PT_GestorNotas.bib
+Warning--entry type for "chatbot_AWS" isn't style-file defined
+--line 12 of file PT_GestorNotas.bib
+Warning--entry type for "chatbot_IBM" isn't style-file defined
+--line 23 of file PT_GestorNotas.bib
+Warning--entry type for "Obsidian" isn't style-file defined
+--line 34 of file PT_GestorNotas.bib
+Warning--entry type for "NotebookLM" isn't style-file defined
+--line 44 of file PT_GestorNotas.bib
+Warning--entry type for "Notion_2025" isn't style-file defined
+--line 54 of file PT_GestorNotas.bib
+Warning--entry type for "evernote" isn't style-file defined
+--line 127 of file PT_GestorNotas.bib
+Warning--entry type for "espana_evernote_nodate" isn't style-file defined
+--line 136 of file PT_GestorNotas.bib
+Warning--entry type for "one_note" isn't style-file defined
+--line 145 of file PT_GestorNotas.bib
+Warning--entry type for "google_keep" isn't style-file defined
+--line 152 of file PT_GestorNotas.bib
+Warning--entry type for "procesamiento_lenguaje_natural" isn't style-file defined
+--line 201 of file PT_GestorNotas.bib
+Warning--entry type for "llm" isn't style-file defined
+--line 212 of file PT_GestorNotas.bib
+Warning--entry type for "basededatosnosql" isn't style-file defined
+--line 223 of file PT_GestorNotas.bib
+Warning--entry type for "sistemas_recomendacion" isn't style-file defined
+--line 233 of file PT_GestorNotas.bib
+Warning--entry type for "teconologias_web" isn't style-file defined
+--line 245 of file PT_GestorNotas.bib
+Warning--entry type for "user_metodologias_2024" isn't style-file defined
+--line 255 of file PT_GestorNotas.bib
+Warning--entry type for "noauthor_privacidad_nodate" isn't style-file defined
+--line 268 of file PT_GestorNotas.bib
+Warning--entry type for "porto_accesibilidad_2023" isn't style-file defined
+--line 278 of file PT_GestorNotas.bib
+Warning--entry type for "trabajo_colaborativo" isn't style-file defined
+--line 292 of file PT_GestorNotas.bib
+Warning--entry type for "almacenamiento_nube" isn't style-file defined
+--line 300 of file PT_GestorNotas.bib
+Warning--entry type for "ia_educacion" isn't style-file defined
+--line 311 of file PT_GestorNotas.bib
+Warning--entry type for "analisis_sentimiento" isn't style-file defined
+--line 320 of file PT_GestorNotas.bib
+Warning--entry type for "ux" isn't style-file defined
+--line 331 of file PT_GestorNotas.bib
+Warning--entry type for "Scrum" isn't style-file defined
+--line 342 of file PT_GestorNotas.bib
+Warning--to sort, need author or key in chatbot_AWS
+Warning--to sort, need author or key in chatbot_IBM
+Warning--to sort, need author or key in evernote
+Warning--to sort, need author or key in one_note
+Warning--to sort, need author or key in Notion_2025
+Warning--to sort, need author or key in Notion_Personal
+Warning--to sort, need author or key in ingenieria_de_usabilidad
+Warning--to sort, need author or key in procesamiento_lenguaje_natural
+Warning--to sort, need author or key in llm
+Warning--to sort, need author or key in basededatosnosql
+Warning--to sort, need author or key in sistemas_recomendacion
+Warning--to sort, need author or key in noauthor_privacidad_nodate
+Warning--to sort, need author or key in ux
+Warning--to sort, need author or key in trabajo_colaborativo
+Warning--to sort, need author or key in almacenamiento_nube
+Warning--to sort, need author or key in ia_educacion
+Warning--to sort, need author or key in analisis_sentimiento
+Warning--to sort, need author or key in Obsidian
+Warning--to sort, need author or key in NotebookLM
+Warning--to sort, need author or key in Scrum
+Warning--empty author in ingenieria_de_usabilidad
+Warning--empty journal in ingenieria_de_usabilidad
+Warning--empty year in ingenieria_de_usabilidad
+Warning--empty journal in collado_concepto_nodate
+Warning--empty year in collado_concepto_nodate
+Warning--empty journal in williams_reference_2024
+Warning--empty year in williams_reference_2024
+You've used 27 entries,
+            2118 wiz_defined-function locations,
+            569 strings with 6510 characters,
+and the built_in function-call counts, 4522 in all, are:
+= -- 373
+> -- 81
+< -- 0
++ -- 45
+- -- 18
+* -- 177
+:= -- 548
+add.period$ -- 37
+call.type$ -- 27
+change.case$ -- 90
+chr.to.int$ -- 0
+cite$ -- 54
+duplicate$ -- 199
+empty$ -- 609
+format.name$ -- 18
+if$ -- 1058
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 3
+newline$ -- 94
+num.names$ -- 14
+pop$ -- 222
+preamble$ -- 1
+purify$ -- 63
+quote$ -- 0
+skip$ -- 251
+stack$ -- 0
+substring$ -- 153
+swap$ -- 24
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 108
+warning$ -- 27
+while$ -- 15
+width$ -- 29
+write$ -- 157
+(There were 51 warnings)

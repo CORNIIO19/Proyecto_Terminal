@@ -1,7 +1,22 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{evernote}
+Best note taking app - organize your notes with evernote.
 
 \bibitem{NotebookLM}
 Google {NotebookLM} {\textbar} herramienta de investigación de {IA} y compañero de pensamiento.
+
+\bibitem{one_note}
+Introducing {OneNote} - microsoft support.
+
+\bibitem{ia_educacion}
+Las 10 mejores herramientas de inteligencia artificial para la investigación académica en noviembre de 2025.
+
+\bibitem{trabajo_colaborativo}
+Las principales herramientas de colaboración en línea.
+
+\bibitem{Scrum}
+Metodología scrum: Roles, procesos y artefactos.
 
 \bibitem{Notion_2025}
 Notion: Qué es, cómo funciona y por qué usarlo en 2025.
@@ -9,13 +24,71 @@ Notion: Qué es, cómo funciona y por qué usarlo en 2025.
 \bibitem{Obsidian}
 Obsidian - sharpen your thinking.
 
+\bibitem{ingenieria_de_usabilidad}
+({PDF}) ingeniería de usabilidad. una propuesta tecnológica para contribuir a la evaluación de la usabilidad del software.
+
+\bibitem{noauthor_privacidad_nodate}
+Privacidad de los datos.
+
+\bibitem{sistemas_recomendacion}
+Sistemas de recomendación: ¿qué son y para qué sirven?
+\newblock Section: Artículos.
+
 \bibitem{Notion_Personal}
 Tu espacio de trabajo que conecta tus notas, documentos y tareas.
+
+\bibitem{ux}
+What is user experience ({UX}) design? — updated 2025.
+
+\bibitem{almacenamiento_nube}
+¿qué es el almacenamiento en la nube? - explicación del almacenamiento en la nube - {AWS}.
+
+\bibitem{analisis_sentimiento}
+¿qué es el análisis de sentimiento? {\textbar} {IBM}.
+
+\bibitem{procesamiento_lenguaje_natural}
+¿qué es el procesamiento de lenguaje natural ({PLN})? {\textbar} {IBM}.
 
 \bibitem{chatbot_AWS}
 ¿qué es un chatbot? - explicación de los chatbots de {IA} - {AWS}.
 
 \bibitem{chatbot_IBM}
 ¿qué es un chatbot? {\textbar} {IBM}.
+
+\bibitem{basededatosnosql}
+¿qué son las bases de datos {NoSQL}? ejemplos {\textbar} {ESIC}.
+
+\bibitem{llm}
+¿qué son los {LLM}? {\textbar} {IBM}.
+
+\bibitem{teconologias_web}
+ardalis.
+\newblock Tecnologías web comunes del lado del cliente - .{NET}.
+
+\bibitem{collado_concepto_nodate}
+Joan Antoni~Pastor Collado and Eduard~Elias Vila.
+\newblock Concepto de sistema de información en la organización.
+
+\bibitem{espana_evernote_nodate}
+{EDITORES}: Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado-{INTEF}-Ministerio de~Educación España, Cultura y Deporte-Gobierno~de.
+\newblock Evernote, la revolución del bloc de notas - {educaLAB}.
+
+\bibitem{porto_accesibilidad_2023}
+Stella Porto.
+\newblock Accesibilidad web: definición, ejemplos y recursos.
+\newblock Section: Gestión del conocimiento.
+
+\bibitem{user_metodologias_2024}
+user.
+\newblock Metodologías ágiles: Qué son y cuáles son las más utilizadas.
+
+\bibitem{williams_reference_2024}
+Laura Williams and Laura Woods.
+\newblock Reference management practices of students, researchers, and academic staff.
+\newblock 50(3):102879.
+
+\bibitem{google_keep}
+Google Workspace.
+\newblock Google keep: notas online y listas en cuadernos digitales.
 
 \end{thebibliography}

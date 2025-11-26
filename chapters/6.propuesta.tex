@@ -20,16 +20,116 @@ En la figura \ref{fig:Contexto} podemos observar un flujo que describe el contex
 
 \noindent Una vez mostradas estas problematicas podemos ve ren el \textbf{punto 5}, como estas problematicas causan frustracion al usuario ante la falta de organización, contexto o accebilidad, a partir de esto proponemos el principio de uso de la aplicacion gestor de notas inteligente \textbf{punto 6} en la que principalmente se propone centralizar las notas que el usuario posea explicandolo de manera en que se tienen el usuario, las notas que el usuario acumule y una aplicacion en la que se puedan centralizar, de esta manera nos da como resultado la creacion de una base de conocimiento, siendo este el punto central de la solución como podemo sver en el \textbf{punto 7}, una vez centralizadas las notas podemos resolver los problemas de organización, estudio y transporte, generando un sistema clasificador con el cual clasifique las notas relacionando con su contenido encontrando similitudes entre palabras clave o etiquetas \textbf{punto 8}, dando estructura y orden a las notas del usuario \textbf{punto 9}, logrando generar un contexto o medio en el cual el usuario podra consultar mediante preguntas o palabras en leguaje natural a la base de conocimiento siendo este el  contexto principal de uso de la aplicacion \textbf{punto 10}, esto mediante una aplicación \textbf{punto 12}, en el cual se muestran dos posibles resultados, primero \textbf{punto 13} en el cual si se encuentra informacion el chatbot nos contestara dando la informacion que encuentre unicamente en la base de conocimeitno del usuario, y la segunda posibilidad \textbf{punto 14} en la que si el chatbot no encuentra nada informara al usuario y se le dara una recomendacion de que haga alguna nota o adjunte informacion nueva con relación a este tema, dando como resultado el final del contexto de uso de la aplicacion gestor de notas inteligente \textbf{punto 15} en el que el usuario tendra un mejor acceso a la informacion con consultas totalmente personalizadas con información organizada y lo mas importante con informacion propia.
 
-\begin{figure}[!hptb]
+\begin{figure}
     \centering
     \includegraphics[width=0.99\linewidth]{images/Contexto_2.png}
     \caption{Contexto de uso de la aplicación}
-    \label{fig:Contexto}
+\label{fig:Contexto}
 \end{figure}
 
 \section{Requerimientos}
 \subsection{Funcionales}
+
+\begin{itemize}
+    \item RF1. La aplicación deberá permitir al usuario crear notas en diferentes formatos, incluyendo texto, imágenes y audio.
+    
+    \item RF2. La aplicación deberá permitir editar notas previamente creadas.
+
+    \item RF3. La aplicación deberá permitir eliminar notas almacenadas por el usuario.
+
+    \item RF4. La aplicación deberá permitir organizar notas mediante etiquetas, categorías o palabras clave.
+
+    \item RF5. La aplicación deberá almacenar todas las notas de manera local en los dispositivos del usuario.
+
+    \item RF6. El sistema deberá convertir los contenidos agregados por el usuario en representaciones vectoriales mediante una base de datos vectorial como FAISS o ChromaDB.
+
+    \item RF7. El sistema deberá actualizar automáticamente la base de conocimiento cuando el usuario agregue, edite o elimine notas.
+
+    \item RF8. El sistema deberá clasificar automáticamente las notas utilizando similitud semántica.
+
+    \item RF9. El sistema deberá permitir realizar consultas mediante lenguaje natural.
+
+    \item RF10. El motor de búsqueda deberá recuperar notas relevantes utilizando embeddings y modelos de lenguaje locales.
+
+    \item RF11. El sistema deberá mostrar sugerencias basadas en el contenido disponible cuando la consulta sea ambigua o incompleta.
+
+    \item RF12. Si no se encuentra información relacionada, el sistema deberá sugerir al usuario crear o agregar nuevo contenido.
+
+    \item RF13. La aplicación deberá incluir un chatbot basado en un modelo de lenguaje local como Llama 3 o Mistral.
+
+    \item RF14. El chatbot deberá responder únicamente con información contenida en la base de conocimiento del usuario.
+
+    \item RF15. El chatbot deberá permitir interacción mediante texto.
+
+    \item RF16. El chatbot deberá generar resúmenes o explicaciones del contenido de las notas.
+
+    \item RF17. El chatbot deberá permitir realizar consultas mediante entrada de voz.
+
+    \item RF18. El sistema deberá permitir compartir notas entre usuarios mediante redes por ejemplo peer-to-peer.
+
+    \item RF19. El sistema deberá sincronizar bases de conocimiento entre dispositivos del usuario dentro de una red local sin necesidad de conexión a internet.
+
+    \item RF20. El sistema deberá enviar recordatorios y notificaciones sobre revisión de notas.
+
+    \item RF21. El sistema deberá notificar al usuario sobre cambios en la base de conocimiento o nuevas recomendaciones generadas.
+
+    \item RF22. El sistema deberá permitir la configuración de privacidad y permisos para compartir notas.
+
+    \item RF23. El sistema deberá permitir importar y exportar notas en formatos estándar como Markdown o texto plano.
+
+\end{itemize}
+
 \subsection{No Funcionales}
+\begin{itemize}
+
+    \item RNF1. Toda la información deberá almacenarse de forma local en el dispositivo del usuario.
+
+    \item RNF2. El sistema no deberá enviar información del usuario a servidores externos ni depender de servicios en la nube.
+
+    \item RNF3. La base de conocimiento deberá estar cifrada para evitar accesos no autorizados.
+
+    \item RNF4. Los procesos de sincronización P2P deberán emplear cifrado de extremo a extremo.
+
+    \item RNF5. El sistema deberá permitir consultas en menos de dos segundos con un volumen estándar de notas.
+
+    \item RNF6. La conversión de una nueva nota a vector deberá realizarse sin afectar significativamente la experiencia del usuario.
+
+    \item RNF7. El chatbot deberá generar respuestas en menos de tres segundos para interacciones estándar.
+
+    \item RNF8. La interfaz deberá ser intuitiva y fácil de navegar para usuarios sin experiencia técnica.
+
+    \item RNF9. La aplicación deberá mantener consistencia visual en todas sus pantallas.
+
+    \item RNF10. El usuario deberá poder comprender y utilizar las funciones básicas sin necesidad de capacitación adicional.
+
+    \item RNF11. La aplicación deberá cumplir con estándares de accesibilidad digital como WCAG 2.1 AA.
+
+    \item RNF12. El sistema deberá incluir opciones de accesibilidad como modo alto contraste, ajuste de tamaño de texto y compatibilidad con lectores de pantalla.
+
+    \item RNF13. La interacción por voz deberá ser completamente funcional para usuarios con dificultades motoras.
+
+    \item RNF14. La aplicación deberá funcionar en sistemas operativos de escritorio como Windows, Linux y macOS.
+
+    \item RNF15. La aplicación deberá poder adaptarse a dispositivos móviles mediante tecnologías como React Native o Flutter.
+
+    \item RNF16. El sistema deberá ejecutarse correctamente en dispositivos sin GPU, siempre que cumplan con requisitos mínimos.
+
+    \item RNF17. El código deberá estar estructurado de manera modular siguiendo principios de diseño limpio.
+
+    \item RNF18. La arquitectura deberá permitir reemplazar el modelo de lenguaje sin requerir reescribir la aplicación completa.
+
+    \item RNF19. El sistema deberá estar documentado para facilitar futuras extensiones o mantenimiento.
+
+    \item RNF20. La base vectorial deberá permitir el crecimiento progresivo sin deterioro significativo del rendimiento.
+
+    \item RNF21. La arquitectura P2P deberá permitir el funcionamiento en redes con múltiples nodos dentro de la misma red local.
+
+    \item RNF22. La aplicación deberá operar completamente sin conexión a internet.
+
+    \item RNF23. Ningún componente de inteligencia artificial deberá depender de consultas a servidores externos.
+
+    \item RNF24. Todas las operaciones de procesamiento de datos deberán realizarse en el dispositivo del usuario.
+\end{itemize}
 
 
 \section{Arquitectura del Sistema}

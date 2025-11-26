@@ -1,35 +1,36 @@
-@startgantt Prueba
+@startgantt Calendario_Actividades_Gantt
+' Inicio del desrrollo
+Project starts 2025-10-01 
+' Escala de semanas 
+printscale weekly
 
-Project starts 2020-09-01
+' PT1
+[Análisis de la problemática y definición del alcance] as [TASK1] lasts 3 weeks
+[Delimitación de funciones principales] as [TASK2] starts at [TASK1]'s end and lasts 2 weeks
+[Diseño de la arquitectura del sistema] as [TASK3] starts at [TASK2]'s end and lasts 3 weeks
+[Elaboración del modelo de datos] as [TASK4] starts at [TASK3]'s end and lasts 2 weeks
+[Selección de tecnologías y herramientas] as [TASK5] starts at [TASK4]'s end and lasts 1 week
+[Revisión y entrega de PT1] as [TASK6] starts at [TASK5]'s end and lasts 1 week
 
-[taskA] starts 2020-09-01 and requires 3 days
-[taskB] starts 2020-09-10 and requires 3 days
-[taskB] displays on same row as [taskA]
+' PT2
+[Desarrollo del prototipo funcional] as [TASK7] starts at [TASK6]'s end and lasts 5 weeks
+[Diseño e implementación de la interfaz de usuario] as [TASK8] starts at [TASK7]'s end and lasts 3 weeks
+[Implementación de la base de conocimiento] as [TASK9] starts at [TASK8]'s end and lasts 4 weeks
+[Desarrollo del motor de búsqueda semántica] as [TASK10] starts at [TASK9]'s end and lasts 4 weeks
+[Revisión y entrega de PT2] as [TASK11] starts at [TASK10]'s end and lasts 1 week
 
-[task01] starts 2020-09-05 and requires 4 days
+' PT 3
+[Implementación del sistema P2P] as [TASK12] starts at [TASK11]'s end and lasts 4 weeks
+[Integración de STT y TTS] as [TASK13] starts at [TASK12]'s end and lasts 3 weeks
+[Pruebas finales del sistema] as [TASK14] starts at [TASK13]'s end and lasts 2 weeks
+[Documentación y entrega final] as [TASK15] starts at [TASK14]'s end and lasts 2 weeks
+[Defensa y cierre del proyecto] as [TASK16] starts at [TASK15]'s end and lasts 1 week
 
-then [task02] requires 8 days
-note bottom
-  note for task02
-  more notes
-end note
 
-then [task03] requires 7 days
-note bottom
-  note for task03
-  more notes
-end note
+' FEchas Importantes
+[Inicio del proyecto] happens at 2025-10-01
+[Entrega PT1] happens at [TASK6]'s end
+[Entrega PT2] happens at [TASK11]'s end
+[Entrega final PT3] happens at [TASK16]'s end
 
--- separator --
-
-[taskC] starts 2020-09-02 and requires 5 days
-[taskD] starts 2020-09-09 and requires 5 days
-[taskD] displays on same row as [taskC]
-
-[task 10] starts 2020-09-05 and requires 5 days
-then [task 11] requires 5 days
-note bottom
-  note for task11
-  more notes
-end note
 @endgantt
