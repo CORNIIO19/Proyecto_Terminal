@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex PT_Documento"] 1764177589.11165 "PT_Documento.aux" "PT_Documento.bbl" "PT_Documento" 1764201924.3082 0
+["bibtex PT_Documento"] 1764177589.11165 "PT_Documento.aux" "PT_Documento.bbl" "PT_Documento" 1764265572.99392 0
   "./PT_GestorNotas.bib" 1764008567.84838 19907 004c6b3d24d5a38474366a82e55644ee ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "PT_Documento.aux" 1764201923.93844 10113 64e2abf437534d3e94fc26aa7fc58a44 "pdflatex"
+  "PT_Documento.aux" 1764265572.61835 10113 64e2abf437534d3e94fc26aa7fc58a44 "pdflatex"
   (generated)
   "PT_Documento.bbl"
   "PT_Documento.blg"
   (rewritten before read)
-["pdflatex"] 1764201922.85792 "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" "PT_Documento.pdf" "PT_Documento" 1764201924.30843 0
+["pdflatex"] 1764265571.51398 "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" "PT_Documento.pdf" "PT_Documento" 1764265572.99416 0
   "/etc/texmf/web2c/texmf.cnf" 1750719697.9744 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/cornii0/Escritorio/Proyecto_Terminal_Gestor_notas/PT_Documento.tex" 1763984993.95385 2076 5e25553808a41300de4094da73016053 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -92,14 +92,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1761075494 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1761075673 3347603 d500aa3f3c6b5e2266c5fb7abfd5498e ""
-  "PT_Documento.aux" 1764201923.93844 10113 64e2abf437534d3e94fc26aa7fc58a44 "pdflatex"
+  "PT_Documento.aux" 1764265572.61835 10113 64e2abf437534d3e94fc26aa7fc58a44 "pdflatex"
   "PT_Documento.bbl" 1764177589.25701 2971 a593bb7d5e964bee53f232a982b2293f "bibtex PT_Documento"
-  "PT_Documento.out" 1764201923.94044 7000 da630c6fd624cf73718549a426d12650 "pdflatex"
+  "PT_Documento.out" 1764265572.62035 7000 da630c6fd624cf73718549a426d12650 "pdflatex"
   "PT_Documento.tex" 1763984993.95385 2076 5e25553808a41300de4094da73016053 ""
-  "PT_Documento.toc" 1764201923.94044 3741 a3ac0a44c9ac28edc1b51d6004e53066 "pdflatex"
+  "PT_Documento.toc" 1764265572.62035 3741 a3ac0a44c9ac28edc1b51d6004e53066 "pdflatex"
   "chapters/0.resumen.tex" 1763999040.83676 1682 fbd89007c0533e4fb150458b850da4b6 ""
   "chapters/1.introduccion.tex" 1764201922.60544 2330 d22f439a81cdafc9fc02542e2a180219 ""
-  "chapters/2.planteamiento.tex" 1764168742.20464 12977 8d8eb00ef6a0dcd1da4f1a8307ee2b63 ""
+  "chapters/2.planteamiento.tex" 1764265571.27934 13900 d53f8795eefcb8d843d557f66f09d43c ""
   "chapters/3.marco_teorico.tex" 1764003720.92593 12169 eb54fd7aeb72864f9370fa54e758fc58 ""
   "chapters/4.estado_arte.tex" 1763843464.08194 3917 2140190a4e365927a16693efd6813145 ""
   "chapters/5.marco_metodologico.tex" 1764008682.05138 3079 71e11a646ee2694f78402bf2e33b41f6 ""
