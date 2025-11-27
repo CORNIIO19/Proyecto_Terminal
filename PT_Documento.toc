@@ -14,15 +14,15 @@
 \contentsline {section}{\numberline {3.2}Antecedentes}{10}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Bases teóricas}{11}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Procesamiento de Lenguaje Natural}{11}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Modelos de Lenguaje}{11}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Modelos de Lenguaje}{12}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Bases de Datos NoSQL}{12}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Sistemas de Recomendación}{12}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Tecnologías Web}{12}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Metodologías Ágiles}{12}{section.3.9}%
+\contentsline {section}{\numberline {3.9}Metodologías Ágiles}{13}{section.3.9}%
 \contentsline {section}{\numberline {3.10}Seguridad y Privacidad de Datos}{13}{section.3.10}%
 \contentsline {section}{\numberline {3.11}Experiencia de Usuario (UX)}{13}{section.3.11}%
 \contentsline {section}{\numberline {3.12}Accesibilidad Digital}{13}{section.3.12}%
-\contentsline {section}{\numberline {3.13}Colaboración en Línea}{13}{section.3.13}%
+\contentsline {section}{\numberline {3.13}Colaboración en Línea}{14}{section.3.13}%
 \contentsline {section}{\numberline {3.14}Almacenamiento en la Nube}{14}{section.3.14}%
 \contentsline {section}{\numberline {3.15}Inteligencia Artificial en la Educación}{14}{section.3.15}%
 \contentsline {section}{\numberline {3.16}Análisis de Sentimiento}{14}{section.3.16}%
