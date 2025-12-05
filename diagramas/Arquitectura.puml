@@ -1,0 +1,135 @@
+
+@startuml Arquitectura_Gestor
+
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam rectangle {
+  BackgroundColor<<frontend>> #E8F5E9
+  BackgroundColor<<application>> #E8F5E9
+  BackgroundColor<<domain>> #FFFDE7
+  BackgroundColor<<infrastructure>> #F3E5F5
+  BackgroundColor<<server>> #FFEBEE
+  BackgroundColor<<security>> #E0F7FA
+  BackgroundColor<<offline>> #FFF3E0
+}
+
+' FRONTEND
+package "Presentación" <<frontend>> {
+  component UI as UI
+  component "Controladores de Estado" as ControladoresEstado
+}
+
+
+' APPLICATION 
+package "Application Layer" <<application>> {
+  component CrearNota as crearNota
+  component CrearBase as crearBase
+  component ClasificarNotas as clasificar
+  component Sincronizar as sincronizar
+  component Autenticacion as Autenticacion
+  component GestionColaboradores as colaboracion
+}
+
+
+' DOMAIN 
+package "Domain Layer\n" <<domain>> {
+  component Nota
+  component Base_Conocimiento
+  component Usuario
+  component "IA Local" as AILocal
+  component Reglas_Integracion
+}
+
+
+' INFRASTRUCTURE
+package "Infraestructura" <<infrastructure>> {
+
+  component "DB Local" as LocalDB
+  component "Módulo de Archivos" as ArchivosModulo
+  component "Historial de Cambios" as Cambios
+  component "Motor de Sincronización\n(Eventos + Replicación)" as Sincronizador
+}
+
+' OFFLINE MODE
+package "Módulos Offline-First" <<offline>> {
+
+  component "Controlador Offline" as Offline 
+  component "Eventos Pendientes" as PendientesEventos
+  component "Monitor Conexiones" as Conexiones
+}
+
+' SECURITY MODULE
+package "Seguridad" <<security>> {
+  component Encriptación
+  component "Autenticación 2FA" as Auth2FA
+  component Permisos
+}
+
+' SYNC SERVER / COLLABORATION
+package "Servidor de Sincronización" <<server>> {
+
+  component "API" as API
+  component "Gestor de Eventos" as Eventos
+  component "Servicio de Colaboradores" as ServicioColab
+  component "Servicio de Autenticación" as ServicioAutenticacion
+  component "BD de Sincronización" as SincronizarDB
+}
+
+' RELACIONES ENTRE ELEMENTOS
+
+' Frontend -> Application
+UI --> ControladoresEstado
+ControladoresEstado --> crearNota
+ControladoresEstado --> crearBase
+ControladoresEstado --> clasificar
+ControladoresEstado --> sincronizar
+ControladoresEstado --> Autenticacion
+ControladoresEstado --> colaboracion
+
+' Application -> Domain
+crearNota --> Nota
+crearBase --> Base_Conocimiento
+clasificar --> AILocal
+clasificar --> Reglas_Integracion
+colaboracion --> Usuario
+sincronizar --> Base_Conocimiento
+sincronizar --> Nota
+
+' Domain -> Infra
+Nota --> LocalDB
+Base_Conocimiento --> LocalDB
+AILocal --> LocalDB
+Nota --> Cambios
+Base_Conocimiento --> Cambios
+Nota --> ArchivosModulo
+
+' Infra <-> Security
+LocalDB --> Encriptación
+Cambios --> Encriptación
+Auth2FA --> Encriptación
+Permisos --> Encriptación
+
+' OFFLINE MODE RELATIONSHIPS
+crearNota --> Sincronizador
+crearBase --> Sincronizador
+clasificar --> Sincronizador
+colaboracion --> Sincronizador
+PendientesEventos --> Cambios
+Offline --> Sincronizador
+Conexiones --> Sincronizador
+
+' SyncEngine <-> Server
+Sincronizador --> API
+API --> Eventos
+Eventos --> SincronizarDB
+Eventos --> ServicioColab
+ServicioColab --> ServicioAutenticacion
+ServicioAutenticacion --> Permisos
+
+' Colaboración
+ServicioColab --> Sincronizador
+
+' Reconexión
+Conexiones --> PendientesEventos : liberar eventos pendientes
+
+@enduml

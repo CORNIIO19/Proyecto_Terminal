@@ -3,26 +3,116 @@
 left to right direction
 
 actor Usuario as Usr 
-actor Filtro_Precision as Vrf
+Actor Colaborador as Usr2
+Usr --|> Usr2 : <<include>> 
+
+
 ' actor Base_Conocimientos as Base
 
-node Dispositivo_Principal as Pr1
-node Segundo_Dispositivo as Pr3 
-node Tercer_Dispositivo as Pr2
+' node Dispositivo_Principal as Pr1
+' node Segundo_Dispositivo as Pr3 
+' node Tercer_Dispositivo as Pr2
+
+package Expertos_Verificador{
+    actor Experto as Vrf
+    actor Profesor as Vrf2
+    actor Profesional as Vrf3
+    Vrf --|> Vrf2 : <<include>>
+    Vrf --|> Vrf3 : <<include>>
+    Usr --|> Vrf : <<include>>
+    Usr2 --|> Vrf2 : <<include>>
+    Usr2 --|> Vrf3 : <<include>>
+}
 
 package Aplicacion_Gestor_Notas_Iteligente{
     usecase "Adjuntar notas Digitales" as CU1
     usecase "Eliminar Notas" as CU2
     usecase "Modificar Notas" as CU3
-    usecase "Crear Base de DAtos" as CU4
+
+    usecase "Crear cuenta" as CU4
+    usecase "Modificar cuenta" as CU7
+    usecase "Eliminar cuenta" as CU8
+    usecase "Verificar cuenta" as CU9
+    usecase "Crear base de conocimiento" as CU10
+    
+}
+
+package casos_2{
+    usecase "Editar notas de la base" as CU11
+    usecase "Agregar notas a la base" as CU12
+    usecase "Eliminar base" as CU13
+
+    usecase "Relacionar Notas" as CU26
+
+    usecase "Almacenar bases" as CU14
+    usecase "Generar bases de conocmiento" as CU15
+    usecase "Organizar notas de BDC" as CU16
+
+    usecase "Organizar notas personalizadas" as CU17
+    usecase "Consultar notas" as CU18
+    usecase "Solicitar resumenes" as CU19
+    usecase "Buscar notas" as CU20
+}
+
+package Integraciones_Gestor_Inteligente{
     node Base_Conocimientos as Base
     node Sistema_Clasificador as Rel
 }
 
+package Casos_3{
+    usecase "Sincronizar bases de conocimiento" as CU21
+    usecase "Configurar Privacidad" as CU22 
+    usecase "Agregar nuevos dispositivos" as CU23
+
+    usecase "notificar cambios" as CU24
+
+    usecase "Calificar notas" as CU25
+    usecase "Calificar colaboradores" as CU27
+    usecase "Solicitar cambios en notas" as CU28
+    usecase "Aceptar Cambios en notas" as CU29
+    usecase "Agregar colaboradores" as CU30
+
+    usecase "Realizar Copias de Seguridad" as CU31
+    usecase "Recuperar Copias de Seguridad" as CU32
+}
+
+'  Casos de USUARIO
 Usr --> CU1
 Usr --> CU2
 Usr --> CU3
 Usr --> CU4
+Usr --> CU7
+Usr --> CU8
+Usr --> CU9
+Usr --> CU10
+Usr --> CU11
+Usr --> CU12
+Usr --> CU13
+Usr --> CU17
+Usr --> CU18
+Usr --> CU19
+Usr --> CU20
+Usr --> CU21
+Usr --> CU22
+Usr --> CU23
+Usr --> CU25
+Usr --> CU27
+Usr --> CU28
+Usr --> CU29
+Usr --> CU30
+Usr --> CU31
+Usr --> CU32
+
+' Casos de Colaborador
+Usr2 --> CU25
+Usr2 --> CU28
+
+' Caso de base
+Base --> CU14
+
+' Caso de Sistema clasificador
+Rel --> CU15
+Rel --> CU16
 
 
 
