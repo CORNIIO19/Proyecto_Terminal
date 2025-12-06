@@ -51,10 +51,13 @@ Warning--entry type for "ux" isn't style-file defined
 --line 331 of file PT_GestorNotas.bib
 Warning--entry type for "Scrum" isn't style-file defined
 --line 342 of file PT_GestorNotas.bib
+Warning--entry type for "frontend" isn't style-file defined
+--line 353 of file PT_GestorNotas.bib
 Warning--I didn't find a database entry for "Apuntes"
 Warning--I didn't find a database entry for "nota"
 Warning--to sort, need author or key in chatbot_AWS
 Warning--to sort, need author or key in chatbot_IBM
+Warning--to sort, need author or key in frontend
 Warning--to sort, need author or key in evernote
 Warning--to sort, need author or key in one_note
 Warning--to sort, need author or key in Notion_2025
@@ -80,45 +83,45 @@ Warning--empty journal in collado_concepto_nodate
 Warning--empty year in collado_concepto_nodate
 Warning--empty journal in williams_reference_2024
 Warning--empty year in williams_reference_2024
-You've used 27 entries,
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            572 strings with 6528 characters,
-and the built_in function-call counts, 4522 in all, are:
-= -- 373
-> -- 81
+            574 strings with 6621 characters,
+and the built_in function-call counts, 4670 in all, are:
+= -- 385
+> -- 82
 < -- 0
-+ -- 45
++ -- 46
 - -- 18
-* -- 177
-:= -- 548
-add.period$ -- 37
-call.type$ -- 27
-change.case$ -- 90
+* -- 182
+:= -- 562
+add.period$ -- 38
+call.type$ -- 28
+change.case$ -- 93
 chr.to.int$ -- 0
-cite$ -- 54
-duplicate$ -- 199
-empty$ -- 609
+cite$ -- 56
+duplicate$ -- 206
+empty$ -- 632
 format.name$ -- 18
-if$ -- 1058
+if$ -- 1095
 int.to.chr$ -- 0
-int.to.str$ -- 27
+int.to.str$ -- 28
 missing$ -- 3
-newline$ -- 94
+newline$ -- 97
 num.names$ -- 14
-pop$ -- 222
+pop$ -- 230
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 65
 quote$ -- 0
-skip$ -- 251
+skip$ -- 261
 stack$ -- 0
-substring$ -- 153
-swap$ -- 24
+substring$ -- 158
+swap$ -- 25
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
-warning$ -- 27
+type$ -- 112
+warning$ -- 28
 while$ -- 15
-width$ -- 29
-write$ -- 157
-(There were 53 warnings)
+width$ -- 30
+write$ -- 162
+(There were 55 warnings)

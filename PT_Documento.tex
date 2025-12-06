@@ -21,7 +21,7 @@
 \setlength{\headheight}{14.49998pt} % required by fancyhdr to avoid "headheight is too small" warnings
 \lhead{Gestor de Notas}     % Nombre del proyecto
 \rhead{\thepage}            % Número de página
-\renewcommand{\headrulewidth}{0.4pt} % Línea sólida debajo del encabezado
+\renewcommand{\headrulewidth}{0.10pt} % Línea sólida debajo del encabezado
 
 % Forzar encabezado fancy en todos los capítulos (numerados y no numerados)
 \makeatletter
@@ -62,6 +62,7 @@
 \input{chapters/7.cronograma.tex}
 \input{chapters/8.especificacion.tex}   
 
+\thispagestyle{fancy}
 \bibliographystyle{plain}
 \bibliography{PT_GestorNotas}
 
