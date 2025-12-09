@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex PT_Documento"] 1764965848.90115 "PT_Documento.aux" "PT_Documento.bbl" "PT_Documento" 1765118814.12685 0
+["bibtex PT_Documento"] 1764965848.90115 "PT_Documento.aux" "PT_Documento.bbl" "PT_Documento" 1765232542.27477 0
   "./PT_GestorNotas.bib" 1765062796.93357 20340 b7ee29ee0e1805cbd4d4c27cb888bfea ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "PT_Documento.aux" 1765118813.74653 10187 ae15ec7f674dc454d55c52cb08b10fe5 "pdflatex"
+  "PT_Documento.aux" 1765232540.97983 10187 ae15ec7f674dc454d55c52cb08b10fe5 "pdflatex"
   (generated)
   "PT_Documento.bbl"
   "PT_Documento.blg"
   (rewritten before read)
-["pdflatex"] 1765118812.60597 "/home/cornii0/Escritorio/PT/Documento_PT/PT_Documento.tex" "PT_Documento.pdf" "PT_Documento" 1765118814.12707 0
+["pdflatex"] 1765232536.52581 "/home/cornii0/Escritorio/PT/Documento_PT/PT_Documento.tex" "PT_Documento.pdf" "PT_Documento" 1765232542.27571 0
   "/etc/texmf/web2c/texmf.cnf" 1750719697.9744 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/cornii0/Escritorio/PT/Documento_PT/PT_Documento.tex" 1765062796.93157 2099 feace8ca6177aa4bb746e1b3368429cd ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -92,18 +92,18 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1761075494 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1761075673 3347603 d500aa3f3c6b5e2266c5fb7abfd5498e ""
-  "PT_Documento.aux" 1765118813.74653 10187 ae15ec7f674dc454d55c52cb08b10fe5 "pdflatex"
+  "PT_Documento.aux" 1765232540.97983 10187 ae15ec7f674dc454d55c52cb08b10fe5 "pdflatex"
   "PT_Documento.bbl" 1765062796.90112 3078 6c13ccdb697e8c0f5272fea0d4070dc4 "bibtex PT_Documento"
-  "PT_Documento.out" 1765118813.74953 6980 8b47615b3cf08ac4b331da11708919e3 "pdflatex"
+  "PT_Documento.out" 1765232540.99083 6980 8b47615b3cf08ac4b331da11708919e3 "pdflatex"
   "PT_Documento.tex" 1765062796.93157 2099 feace8ca6177aa4bb746e1b3368429cd ""
-  "PT_Documento.toc" 1765118813.75005 3737 ab4db2a7c1fd9ed882dfb90764d9f2e7 "pdflatex"
+  "PT_Documento.toc" 1765232540.99183 3737 ab4db2a7c1fd9ed882dfb90764d9f2e7 "pdflatex"
   "chapters/0.resumen.tex" 1763999040.83676 1682 fbd89007c0533e4fb150458b850da4b6 ""
-  "chapters/1.introduccion.tex" 1765116967.25729 2335 b68bf8ea906e5dfc8793321e72dbef11 ""
+  "chapters/1.introduccion.tex" 1765232535.73412 2336 618b36277fd4683a0eca6dfa00e9815a ""
   "chapters/2.planteamiento.tex" 1765118417.37332 13660 8fcb80de75a78c2588139582cdf90fad ""
   "chapters/3.marco_teorico.tex" 1765118812.38519 13407 e0b04ebc9b5446de931608e1b2ef8bac ""
-  "chapters/4.estado_arte.tex" 1765062796.93557 8577 4d0295e46aa382e1f34187138fb8e36f ""
-  "chapters/5.marco_metodologico.tex" 1765062796.93557 3102 897142051183b688063b7361b98c5bcd ""
-  "chapters/6.propuesta.tex" 1765062796.93657 22128 fb2774c5e39467526d7bb40677bc1a75 ""
+  "chapters/4.estado_arte.tex" 1765131359.60083 8811 345645f43f826e87551e11c7e54c6754 ""
+  "chapters/5.marco_metodologico.tex" 1765131513.46054 3118 8236d045c41332ade1d629c030bd355a ""
+  "chapters/6.propuesta.tex" 1765132101.66091 22176 1da6754e66fea82063b534fe6b2c8ab3 ""
   "chapters/7.cronograma.tex" 1765062796.93657 1570 3d47a56f87111fab85d67a8e70fd37fb ""
   "chapters/8.especificacion.tex" 1765062796.93657 1915 4cd831785ef4dfc19c19a729a1996b35 ""
   "chapters/portada.tex" 1763843464.08294 833 fb10b43803187252108c6cc641f30556 ""
